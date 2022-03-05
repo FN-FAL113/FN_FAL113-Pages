@@ -1,0 +1,94 @@
+	
+	body {
+		background-color: royalblue;
+		font-family: "Courier New", monospace;
+	}
+
+	#steam_text.page {
+		text-indent: 8px;
+		width: 80px;
+	}
+
+	#github_text.page {
+		text-indent: 5px;
+	}
+
+	#projects_text.page {
+		width: 100px;
+		background-color: transparent;
+	}
+
+	#youtube_text.page {
+		text-indent: 7px;
+		width: 95px;
+	}
+
+	.container {
+		display: flex;
+		gap: 30px;
+		position: relative;  right: 200px; top: 10px;
+		//border: solid;
+		//border-color: black;
+		width: 600px;
+		height: 60px;
+		margin: 0 auto;
+	}
+
+	.page {
+		display: flex;
+		justify-content: space-evenly;
+		float: left;
+		padding: 5px;
+		margin: 10px;
+		border: transparent;
+		border-color: skyblue;
+		border-radius: 25px;
+		width: 85px;
+		text-align: center;
+		text-indent: 4px;
+		background-image: linear-gradient(to right , aliceblue, blueviolet, deepskyblue);
+	}
+
+	.social_link {
+		text-decoration: none;
+ 		color: darkblue;
+	}
+
+	.page img {
+		position: relative; left: 2px;
+		width: 18px;
+		max-width: 20px;
+	}
+
+	.self {
+		position: relative;  right: 100px;
+		font-size: 1.15em;
+		//border: solid;
+		//border-color: black;
+		width: 800px;
+		height: 400px;
+		margin: 20px auto;
+	}
+
+	#fnaddon.fnvid {
+		align: center;
+	}
+
+	.fnaddon {
+		position: relative;  right: 100px;
+		font-size: 1.15em;
+		width: 800px;
+		height: 700px;
+		margin: 20px auto;
+	}
+
+	.fnaddon2 {
+		position: relative;  right: 100px;
+		font-size: 1.15em;
+		width: 800px;
+		height: 1100px;
+		margin: 20px auto;
+	}
+
+	
+
