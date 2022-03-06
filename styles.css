@@ -1,73 +1,92 @@
-	
 	body {
-		background-color: royalblue;
+		background-image: url(https://antiquespride.edu.ph/wp-content/uploads/2021/11/coding-background-texture.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center center;
 		font-family: "Courier New", monospace;
 	}
 
-	#steam_text.page {
-		text-indent: 8px;
-		width: 80px;
-	}
 
-	#github_text.page {
-		text-indent: 5px;
-	}
-
-	#projects_text.page {
-		width: 100px;
-		background-color: transparent;
-	}
-
-	#youtube_text.page {
-		text-indent: 7px;
-		width: 95px;
-	}
-
-	.container {
+	/*Start component (navbar.js)*/
+	.navbar_container {
 		display: flex;
-		gap: 30px;
-		position: relative;  right: 200px; top: 10px;
-		//border: solid;
-		//border-color: black;
-		width: 600px;
-		height: 60px;
-		margin: 0 auto;
-	}
-
-	.page {
-		display: flex;
-		justify-content: space-evenly;
-		float: left;
-		padding: 5px;
-		margin: 10px;
+		position: relative; right: 10px;top: -10px;
 		border: transparent;
-		border-color: skyblue;
-		border-radius: 25px;
-		width: 85px;
-		text-align: center;
-		text-indent: 4px;
-		background-image: linear-gradient(to right , aliceblue, blueviolet, deepskyblue);
+		border-color: black;
+		width: 100%;
+		height: 58px;
+		background-color: #333;
 	}
 
 	.social_link {
-		text-decoration: none;
- 		color: darkblue;
+		display: block;
+		color: white;
+  		text-align: center;
+  		padding: 14px;
+  		text-decoration: none;
 	}
 
-	.page img {
-		position: relative; left: 2px;
-		width: 18px;
+	.bar {
+		display: block;
+		float: left;
+		list-style-type: none;
+ 		margin: 0;
+  		padding: 5px;
+
+  		background-color: #333;
+  		text-decoration: none;
+	}
+
+	.bar img {
+		position: relative; left: 2px; top: 2px;
+		width: 15px;
 		max-width: 20px;
+	}
+
+	.bar li {
+		float: left;
+		height: 25px;
+		
+	}
+
+	.bar li a:hover{
+		background-color: #111;
+		height: 25px;
+		color: #FF00FF
+	}
+	/*End component (navbar.js)*/
+
+
+	/*Start (index.html)*/
+	.home_container {
+		position: relative; bottom: 10px;
+		width: 80%;
+		margin: 0 auto;
+		background-color: #ffe6e6;
+	}
+
+	.fngun_image {
+		width: 60%;
+		margin; 0 auto;
 	}
 
 	.self {
 		position: relative;  right: 100px;
 		font-size: 1.15em;
-		//border: solid;
-		//border-color: black;
-		width: 800px;
-		height: 400px;
-		margin: 20px auto;
+		/*border: solid;
+		border-color: black;*/
+		width: 600px;
+		height: 1080px;
+		margin: 0 auto;
+	}
+	/*End (index.html)*/
+
+	/*Start (projects.html)*/
+	.addon_container {
+		position: relative; bottom: 10px;
+		width: 80%;
+		margin: 0 auto;
+		background-color: #ffe6e6;
 	}
 
 	#fnaddon.fnvid {
@@ -75,11 +94,11 @@
 	}
 
 	.fnaddon {
-		position: relative;  right: 100px;
+		position: relative;  right: 100px; top: 40px;
 		font-size: 1.15em;
 		width: 800px;
 		height: 700px;
-		margin: 20px auto;
+		margin: 0px auto;
 	}
 
 	.fnaddon2 {
@@ -87,8 +106,7 @@
 		font-size: 1.15em;
 		width: 800px;
 		height: 1100px;
-		margin: 20px auto;
+		margin: 0px auto;
 	}
-
+	/*Start (projects.html)*/
 	
-
