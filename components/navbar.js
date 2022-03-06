@@ -10,15 +10,15 @@ class NavBar extends HTMLElement {
 		<ul class="bar">
 		<li class="home">
 			<a class="social_link" href="index.html">
-           		<img src="https://tinyurl.com/45as4pwk" alt="failed to load image">
-           		<strong style="position: relative; left: 0px; top: 12px">Home</strong>
+           		<img src="https://www.pinclipart.com/picdir/big/531-5312593_house-logo-white-lines-svg-clip-arts-png.png" alt="failed to load image">
+           		<strong style="position: relative; left: -6px; top: 12px">Home</strong>
         	</a>
         </li>
 
         <li>
         	<a class="social_link" href="https://github.com/FN-FAL113/" target=_blank>
            		<img src="https://tinyurl.com/mr36j2pw" alt="failed to load image">
-           		<strong style="position: relative; left:-4px; top: 12px;">Github</strong>
+           		<strong style="position: relative; left:-2px; top: 12px;">Github</strong>
         	</a>
         </li>
 
@@ -37,7 +37,7 @@ class NavBar extends HTMLElement {
         </li>
         <li class="proj">
         	<a class="social_link" href="projects.html">
-           		<img src="https://tinyurl.com/3eeh63af" alt="failed to load image">
+           		<img src="https://i.imgur.com/ZLDq5Ez.png" alt="failed to load image">
             	<strong style="position: relative; top: 12px;">Projects</strong>
         	</a>
         </li>

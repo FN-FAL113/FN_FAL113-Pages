@@ -1,9 +1,9 @@
 	body {
 		background-image: url(https://antiquespride.edu.ph/wp-content/uploads/2021/11/coding-background-texture.jpg);
 		background-size: cover;
-    		background-repeat: no-repeat;
-    		background-position: center;
-    		min-height: 100vh;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	min-height: 100vh;
 		font-family: "Courier New", monospace;
 	}
 
