@@ -1,80 +1,22 @@
 	body {
-		background-image: url(https://antiquespride.edu.ph/wp-content/uploads/2021/11/coding-background-texture.jpg);
-		background-size: cover;
-    	background-repeat: no-repeat;
-    	background-position: center;
-    	min-height: 100vh;
-		font-family: "Courier New", monospace;
+		background-color: whitesmoke;
 	}
 
-	.navbar {
-		display: flex;
-		height: 48px;
-		margin: 0 auto;
-		background-color: #333;
-	}
 
-	.social_link {
-		display: flex;
-		flex-grow: 10;
-		justify-content: space-evenly;
-		border-right: inset;
-		border-color: #444;
-		width: 100px;
-		
-  		text-decoration: none;
-	}
 
-	.home {
-		width: 100px;
-	}
+	a.active:hover {
+     border-bottom: 2px solid #00ffc8;
+     border-top: 2px solid #00ffc8;
+     display: block;
+ 	}
 
-	.steam {
-		width: 100px;
-	}
 
-	.youtube {
-		width: 120px;
-	}
+ 	a.hov:hover {
+     border-bottom: 2px solid #00ffc8;
+     border-top: 2px solid #00ffc8;
+     
+ 	}
 
-	.proj {
-		width: 120px;
-	}
 
-	.bar {
-		display: flex;
-		float: left;
-		position: relative; left: -12px; top: -10px;
-		height: 50px;
- 		margin: 0 auto;
-		list-style-type: none;
-		text-decoration: none;
-  		background-color: #333;
-  		
-	}
 
-	.bar img {
-		display: flex;
-		float: left;
-		position: relative; left: 2px; top: 16px;
-		width: 15px;
-		height: 15px;
-		max-width: 20px;
-	}
 
-	.bar li {
-		display: flex;
-		position: relative; left: -30px;
-		float: left;
-		height: 50px;
-		
-	}
-
-	.bar li a:hover{
-		background-color: #111;
-		border-right: solid;
-		border-color: black;
-		height: 50px;
-		color: #FF00FF;
-	}
-	/*End component (navbar.js)*/

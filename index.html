@@ -7,47 +7,66 @@
   <meta name="author" content="FN-FAL113">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="components/navbar.js" type="text/javascript" defer></script>
 
   <title>FN_FAL113 Dev Page</title>
 </head>
 <body>
 
-  <div class="container">
-    <div class="row navbar">
-      <navigation-bar></navigation-bar>
-    </div>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded border" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html"><strong>FN</strong><strong class="fs-6">Dev</strong></a>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">Socials</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                <li><a class="dropdown-item hov" href="https://github.com/FN-FAL113/" target=_blank>Github</a></li>
+                <li><a class="dropdown-item hov" href="https://www.youtube.com/channel/UCP7YiykhJSFQt1ce7dp-rZg" target=_blank>Youtube</a></li>
+                <li><a class="dropdown-item hov" href="https://steamcommunity.com/id/JPachelbel" target=_blank>Steam</a></li>
+                <li><a class="dropdown-item hov" href="projects.html">Projects</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> <!--- nav --->
   </div>
 
-  <br>
-   <div class="container" style="text-align: center;">
-    <div class="row">
-      <div class="col-sm-2">
+  <div class="container py-3">
+    <div class="row w-100 mx-auto">
         
-      </div>
-      <div class="col-md-8" style="text-align: center;">
-        <img class="fngun_image" src="images/FN_FAL_50-64_600_lq_0001.jpg" width=35%>
-        <p class="" style="text-align: justify;">
-          <br>
-          Welcome to my small web page, my name is FN_FAL113 and I currently Study BS Information Technology.
-          Currently learning java and web dev. First programming language is C and will start learning C# or
-          C++ soon.
-        </p>
-        <p class="" style="text-align: justify;">
-          I like to play shooter games like CS GO and open world games like Fallout New Vegas, Skyrim and Minecraft.
-          I also currently develop minecraft java edition plugins and have gone through with some of the stuffs inside 
-          the spigot api. FN_FAL113's Amplifications and SfChunkInfo are my current minecraft plugins that I developed
-          as an addon for <a href="https://github.com/Slimefun/Slimefun4" target=_blank>Slimefun</a> and are part of the 
-          <a href="https://github.com/Slimefun/Slimefun4/wiki/Addons#heart-community-addons" target=_blank>community addons</a>
-        </p>
-      </div>
-      <div class="col-sm-2">
-        
-      </div>
-    </div>
-  </div>
+          <div class="col-8">
+              <h2 class="border-bottom border-dark">About me</h2>
+                <img class="img-fluid d-block mx-auto mb-2" src="images/FN_FAL_50-64_600_lq_0001.jpg" width=30%>
+                <p class="text-center">
+                <br>
+                Welcome to my small web page, my name is FN_FAL113 and I currently Study BS Information Technology.
+                Currently learning java and web dev. First programming language is C and will start learning C# or
+                C++ soon.
+                </p>
+                <p class="text-center">
+                I like to play shooter games like CS GO and open world games like Fallout New Vegas, Skyrim and Minecraft.
+                I also currently develop minecraft java edition plugins and have gone through with some of the stuffs inside 
+                the spigot api. FN_FAL113's Amplifications and SfChunkInfo are my current minecraft plugins that I developed
+                as an addon for <a href="https://github.com/Slimefun/Slimefun4" target=_blank>Slimefun</a> and are part of the 
+                <a href="https://github.com/Slimefun/Slimefun4/wiki/Addons#heart-community-addons" target=_blank>community addons</a>
+                </p>
+          </div> <!--- col-8 --->
+      
+  
+          <div class="col-4">
+            <h2 class="border-bottom border-dark">Random Stuffs</h2> 
+                Nothing here yet
+          </div> <!--- col-4 --->
+      
+    </div> <!--- row --->
+  </div> <!--- container --->
 
-</div>
 
 </body>
 </html>
