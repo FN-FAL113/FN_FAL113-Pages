@@ -39,6 +39,7 @@ function createBarChart(ctx, label){
         }]
     },
     options: {
+    	responsive: true,
         scales: {
             y: {
                 beginAtZero: true
@@ -63,7 +64,21 @@ function createPieChart(ctx, label, type){
     			],
     			hoverOffset: 4
   			}]
-		}
+		},
+		options: {
+			 plugins: {
+            title: {
+                display: true,
+                text: label
+            }
+        },
+    	responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
 	});
 	
 }
@@ -84,7 +99,20 @@ function createPolarChart(ctx, label, type){
       			'rgb(54, 162, 235)'
     			]
   			}]
-		}
+		},options: {
+			plugins: {
+            title: {
+                display: true,
+                text: label
+            }
+        },
+    	responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
 	});
 	
 }
