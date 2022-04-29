@@ -39,6 +39,7 @@ function createBarChart(ctx, label){
         }]
     },
     options: {
+    	maintainAspectRatio: false,
     	responsive: true,
         scales: {
             y: {
@@ -67,11 +68,12 @@ function createPieChart(ctx, label, type){
 		},
 		options: {
 			 plugins: {
-            title: {
+            	title: {
                 display: true,
                 text: label
             }
         },
+        maintainAspectRatio: false,
     	responsive: true,
         scales: {
             y: {
@@ -106,6 +108,7 @@ function createPolarChart(ctx, label, type){
                 text: label
             }
         },
+        maintainAspectRatio: false,
     	responsive: true,
         scales: {
             y: {

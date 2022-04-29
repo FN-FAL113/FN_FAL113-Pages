@@ -20,13 +20,13 @@
      <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light rounded border" aria-label="Eleventh navbar example"> 
         <a class="navbar-brand mx-3" href="#"><span><strong>FN</strong><strong class="fs-6">Dev</strong></span></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+         <button class="navbar-toggler" onclick="this.blur();" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
             </button>
             
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto px-3">
               <li class="nav-item active">
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
@@ -61,26 +61,26 @@
     </div>
 
         <div class="row d-flex bg-light border mx-auto rounded">
-          <div class="col-4 mx-auto">
-            <canvas id="myChartFNAmp" width="100" height="205"></canvas>
+          <div class="col-4 mx-auto chart">
+            <canvas id="myChartFNAmp" width="700" height="350"></canvas>
           </div>
-          <div class="col-8 mx-auto">
-            <canvas id="myChartFNAmpPlayers" width="100" height="100"></canvas>
+          <div class="col-8 mx-auto chart pad">
+            <canvas id="myChartFNAmpPlayers" width="700" height="350"></canvas>
           </div>
         </div> 
       
         <div class="row mx-auto bg-light border rounded">
-          <div class="col-6 mx-auto">
-            <canvas id="myChartFNAmpServerVer" width="50" height="50"></canvas>
+          <div class="col-6 mx-auto chart">
+            <canvas id="myChartFNAmpServerVer" width="700" height="350"></canvas>
           </div>
-          <div class="col-6 mx-auto">
-            <canvas id="myChartFNAmpPluginVer" width="100" height="30"></canvas>
+          <div class="col-6 mx-auto chart">
+            <canvas id="myChartFNAmpPluginVer" width="700" height="350"></canvas>
           </div>
         </div>
       
         <div class="row mx-auto bg-light border rounded">
-          <div class="col-12 mx-auto">
-            <canvas id="myChartFNAmpPluginCountry" width="100" height="100"></canvas>
+          <div class="col-12 mx-auto chart">
+            <canvas id="myChartFNAmpPluginCountry" width="700" height="350"></canvas>
           </div>
         </div>              
             
@@ -97,26 +97,26 @@
     </div>
 
         <div class="row d-flex bg-light border mx-auto rounded">
-          <div class="col-4 mx-auto">
-            <canvas id="myChartSfChunk" width="100" height="205"></canvas>
+          <div class="col-4 mx-auto chart">
+            <canvas id="myChartSfChunk" width="700" height="350"></canvas>
           </div>
-          <div class="col-8 mx-auto">
-            <canvas id="myChartSfChunkPlayers" width="100" height="100"></canvas>
+          <div class="col-8 mx-auto chart pad">
+            <canvas id="myChartSfChunkPlayers" width="700" height="350"></canvas>
           </div>
         </div> 
       
         <div class="row mx-auto bg-light border rounded">
-          <div class="col-6 mx-auto">
-            <canvas id="myChartSfChunkServerVer" width="50" height="50"></canvas>
+          <div class="col-6 mx-auto chart">
+            <canvas id="myChartSfChunkServerVer" width="700" height="350"></canvas>
           </div>
-          <div class="col-6 mx-auto">
-            <canvas id="myChartSfChunkPluginVer" width="100" height="30"></canvas>
+          <div class="col-6 mx-auto chart">
+            <canvas id="myChartSfChunkPluginVer" width="700" height="350"></canvas>
           </div>
         </div>
       
         <div class="row mx-auto bg-light border rounded">
-          <div class="col-12 mx-auto">
-            <canvas id="myChartSfChunkPluginCountry" width="100" height="100"></canvas>
+          <div class="col-12 mx-auto chart">
+            <canvas id="myChartSfChunkPluginCountry" width="700" height="350"></canvas>
           </div>
         </div>              
             
@@ -126,16 +126,18 @@
     <div class="container bg bg-light rounded border fixed-bottom">
         <footer class="d-flex justify-content-between mx-auto">
 
-          <div class="col-4 py-1">
-            <a href="/" class="mb-3 me-2 text-muted text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-            </a>
-            <span class="text-muted">&copy; 2022 FN_FAL113 Dev</span>
-          </div> 
+          <div class="row">  
+            <div class="col-12">
+              <a href="https://github.com/FN-FAL113" target="_blank">
+               <button class="btn btn-sm text-muted btn-block footertext"><span class="text-muted">&copy; 2022 FN_FAL113 Dev</span></button>
+              </a>
+            </div> 
+          </div>
 
-           <div class="row mx-3">
-            <button class="btn btn-sm text-muted btn-block" id="bg-button" title="Shift-click to use normal colors">Background Color: <span class="text-muted" id="bgcolortext">white</span></button>
-
+          <div class="row">
+            <div class="col-12">
+              <button class="btn btn-sm text-muted btn-block footertext"  id="bg-button" title="Shift-click to use normal colors">Background Color: <span class="text-muted" id="bgcolortext">white</span></button>
+            </div>
           </div>
 
         </footer>

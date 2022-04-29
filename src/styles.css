@@ -2,7 +2,61 @@
 		background-color: whitesmoke;
 	}
 
+	div.chart {
+		width: 700px;
+		height: 500px;
+		padding: 20px;
+	}
 
+	.navbar-toggle {
+    	padding-left: 100px;
+	}
+	
+
+	@media only screen and (max-width: 700px){
+		div.chart {
+			width: 90%;
+			height: 45%;
+			padding: 20px;
+		}
+	}
+	@media only screen and (max-width: 400px){
+		div.chart {
+			width: 350px;
+			height: 600px;
+			padding: 20px;
+		}
+		div.pad {
+			width: 400px;
+			height: 300px;
+			padding-right: 50px;
+		}
+		
+	}
+	@media only screen and (max-width: 300px){
+		div.chart {
+			width: 200px;
+			height: 200px;
+			padding: 20px;
+		}
+	}
+
+
+	@media only screen and (max-width: 700px){
+		button.footertext {
+			font-size: 10px;
+		}
+	}
+	@media only screen and (max-width: 400px){
+		button.footertext {
+			font-size: 9px;
+		}
+	}
+	@media only screen and (max-width: 300px){
+		button.footertext {
+			font-size: 7px;
+		}
+	}
 
 
 
