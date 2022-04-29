@@ -2,6 +2,13 @@
 		background-color: whitesmoke;
 	}
 
+	#btn-back-to-top {
+		position: fixed;
+		bottom: 30px;
+  		right: 30px;
+		display: none;
+	}
+
 	div.chart {
 		width: 700px;
 		height: 500px;

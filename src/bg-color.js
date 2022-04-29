@@ -2,8 +2,8 @@ const btn = document.querySelector('#bg-button');
 const bgtext = document.querySelector('#bgcolortext');
 const hex =  ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C',
 			'D', 'E', 'F'];
-const color = ['red', 'white', 'blue', 'yellow', 'green', 'orange', 'pink', 'beige',
-			'coral', 'cyan', 'grey', 'black'];
+const color = ['red', 'white', 'orange', 'pink', 'beige',
+			'coral', 'cyan', 'grey'];
 
 if(localStorage.getItem('bgcolor')){
 	setColor(localStorage.getItem('bgcolor'));
@@ -35,6 +35,7 @@ function getRandomColor(color){
 function setColor(color){
 	document.body.style.background = color;
 	bgtext.textContent = color;
+	document.getElementById("btn-back-to-top").style.background = color;
 
 	localStorage.setItem('bgcolor', color);
 }

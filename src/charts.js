@@ -174,6 +174,7 @@ function fetchUpdateSingleBarChart(api_url, myChart){
         dataset.data.push(data[47][1]);
         dataset.data.push(data[47][1] + 20);
     });
+
     myChart.update();
 });
 
