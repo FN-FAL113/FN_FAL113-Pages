@@ -62,7 +62,10 @@ function toggleDarkMode(){
    if(charts.length != 0){
         Chart.defaults.color = "#FFFFFF";
         charts.forEach((el) => {
-            Chart.getChart(el.id).update();
+            
+            if(Chart.getChart(el.id) != null){
+                Chart.getChart(el.id).update();
+            }
         });
     }
    
@@ -90,9 +93,13 @@ function toggleLightMode(){
    // console.log(document.body.classList);
    
     if(charts.length != 0){
+
         Chart.defaults.color = "#666";
         charts.forEach((el) => {
-            Chart.getChart(el.id).update();
+           
+            if(Chart.getChart(el.id) != null){
+                Chart.getChart(el.id).update();
+            }
         });
     }
    
