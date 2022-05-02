@@ -2,69 +2,15 @@ const ctxPageViews = document.getElementById('myChartPageViews').getContext('2d'
 const ctxPageRequests = document.getElementById('myChartPageRequests').getContext('2d');
 const ctxPageCountryMap = document.getElementById('myChartCountryMap').getContext('2d');
 
-const queryPageViews = `query {
-        viewer {
-          zones(filter: { zoneTag: $zoneTag }) {
-            httpRequests1hGroups(
-              orderBy: [date_ASC]
-              limit: 20
-              filter: { date_gt: $date }
-            ) {
-              date: dimensions {
-                date
-              }
-              sum {
-                pageViews
-              }
-            }
-          }
-        }
-      }`;
-
-const queryRequest = `query {
-        viewer {
-          zones(filter: { zoneTag: $zoneTag }) {
-            httpRequests1hGroups(
-              orderBy: [date_ASC]
-              limit: 20
-              filter: { date_gt: $date }
-            ) {
-              date: dimensions {
-                date
-              }
-              sum {
-                requests
-              }
-            }
-          }
-        }
-      }`;
-
-const queryCountry = `query {
-        viewer {
-          zones(filter: { zoneTag: $zoneTag }) {
-            httpRequests1hGroups(
-              orderBy: [date_ASC]
-              limit: 20
-              filter: { date_gt: $date }
-            ) {
-              date: dimensions {
-                date
-              }
-              sum {
-                countryMap {
-                bytes
-                requests
-                threats
-                clientCountryName
-                }
-              }
-            }
-          }
-        }
-      }`;
+function destroyExistingChart(ctx){
+    if (Chart.getChart(ctx) != undefined) {
+        Chart.getChart(ctx).destroy();
+    }
+}
 
 function createBarChart(ctx, label){
+    destroyExistingChart(ctx);
+    
 	return new Chart(ctx, {
     type: 'bar',
     data: {
@@ -104,6 +50,8 @@ function createBarChart(ctx, label){
 }
 
 function createPieChart(ctx, label, type){
+    destroyExistingChart(ctx);
+
 	return new Chart(ctx, {
   		type: type,
   		data: {
@@ -138,43 +86,43 @@ function createPieChart(ctx, label, type){
 	
 }
 
-
-function fetchUpdatePieChart(api_url, myChart){
-	fetch(api_url)
-  	.then(res => res.json())
-  	.then(function(data) {
-  		
-  	data.forEach((dataArray) =>{
-  		myChart.data.labels.push(dataArray.name);	
-  		myChart.data.datasets[0].data.push(dataArray.y);
-  		
-  	});
-    
-    myChart.update();
-});
-
-}
-
-function fetchAPI(url, email, apiKey, queryRequest, zoneTag, leafNode, field, dateRange) {
+function fetchAPI(url, email, apiKey, zoneTag, leafNode, field, dateRange) {
     const today = new Date();
     const daysAgo = new Date(new Date().setDate(today.getDate() - dateRange));
     const date = daysAgo.toISOString().split('T')[0];
 
     let request = new Request(url)
-    const query = queryRequest
+    request.headers.set('x-auth-key', apiKey)
+    request.headers.set('x-auth-email', email)
 
-    const json = { query, variables: { zoneTag, date, } };
+    const query = 
+    `query {
+        viewer {
+          zones(filter: { zoneTag: "${zoneTag}" }) {
+            httpRequests1hGroups(
+              orderBy: [date_ASC]
+              limit: 20
+              filter: { date_gt: "${date}" }
+            ) {
+              date: dimensions {
+                date
+              }
+              sum {
+                ${field}
+              }
+            }
+          }
+        }
+      }`;
+
+    const json = { query, variables: { } };
 
     let init = {
         method: 'POST',
         body: JSON.stringify(json)
     }
-    request.headers.set('x-auth-key', apiKey)
-    request.headers.set('x-auth-email', email)
-
-    return fetch(request, init).catch((error) => {
-           
-            });
+   
+    return fetch(request, init)
 }
 
 function validateField(email, apiKey, zoneTag){
@@ -197,18 +145,17 @@ function validateField(email, apiKey, zoneTag){
     return false;
 }
 
-async function fetchDateSumData(chart, queryRequest,leafNode, field, dateRange, isMap){
+async function fetchDateSumData(chart, leafNode, field, dateRange, isMap){
     var email = document.getElementById('email').value;
     var apiKey = document.getElementById('apiKey').value;
     var zoneTag = document.getElementById('zoneTag').value;
     var api_url = 'https://cf-cors.walshydev.workers.dev/client/v4/graphql'
 
     if(!validateField(email, apiKey, zoneTag)){
-        chart.destroy();
         return;
     }
 
-    fetchAPI(api_url, email, apiKey, queryRequest, zoneTag, leafNode, field, dateRange)
+    fetchAPI(api_url, email, apiKey, zoneTag, leafNode, field, dateRange)
     .then(res => {
       if (res.status == 200) {
         return res.json();
@@ -216,13 +163,14 @@ async function fetchDateSumData(chart, queryRequest,leafNode, field, dateRange, 
       return res.text().then(text => { throw new Error(text) })
     })
     .then(function(dataObject) {
+        //console.log(dataObject);
         
         dataObject.data.viewer.zones[0].httpRequests1hGroups.forEach((dataArray) =>{     
             if(!isMap){
                 chart.data.labels.push(dataArray.date.date);  
                 chart.data.datasets[0].data.push(dataArray.sum[field]);
             } else {
-                dataArray.sum[field].forEach( (dataArray2) => {
+                dataArray.sum[field.substring(0, field.indexOf(' '))].forEach( (dataArray2) => {
                     chart.data.labels.push(new Intl.DisplayNames(['en'], {type: 'region'}).of(dataArray2.clientCountryName) + ' ' + dataArray.date.date);  
                     chart.data.datasets[0].data.push(dataArray2.requests);
                 });            
@@ -233,13 +181,23 @@ async function fetchDateSumData(chart, queryRequest,leafNode, field, dateRange, 
     });
 } 
 
+
 document.getElementById('fetch').addEventListener('click', async function() {
+
 const myChartPageViews = createBarChart(ctxPageViews, '# of Page Views');
-fetchDateSumData(myChartPageViews, queryPageViews, 'httpRequests1hGroups', 'pageViews', 2, false);
+fetchDateSumData(myChartPageViews, 'httpRequests1hGroups', 'pageViews', 2, false);
 
 const myChartRequests = createBarChart(ctxPageRequests, '# of Requests');
-fetchDateSumData(myChartRequests, queryRequest, 'httpRequests1hGroups', "requests", 2, false);
+fetchDateSumData(myChartRequests, 'httpRequests1hGroups', "requests", 2, false);
 
 const myChartCountryMap = createPieChart(ctxPageCountryMap, '# of Request Per Country', 'doughnut');
-fetchDateSumData(myChartCountryMap, queryCountry, 'httpRequests1hGroups', "countryMap", 2, true);  
+fetchDateSumData(myChartCountryMap, 
+    'httpRequests1hGroups', 
+    `countryMap {
+            bytes
+            requests
+            threats
+            clientCountryName
+    }`, 2, true);  
+
 });
