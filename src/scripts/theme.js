@@ -1,9 +1,11 @@
-const btn = document.querySelector('.bg-button');
-const bgtext = document.querySelector('#bgtheme');
+let btn = document.querySelector('.bg-button');
+let bgtext = document.querySelector('#bgtheme');
+let bgBody = document.querySelector('.bg-white');
 let bg = document.querySelectorAll('.bg-light');
 let text = document.querySelectorAll('.text-dark');
 let charts =  document.querySelectorAll('canvas');
 let projectsText =  document.querySelectorAll('p.text-dark');
+let logo = document.getElementById('logo');
 
 
 checkAndToggle();
@@ -41,6 +43,11 @@ function toggleDarkMode(){
        
     }
 
+    // footer bar
+    bgBody.classList.remove('bg-white');
+    bgBody.classList.toggle('bg-dark');
+    bgBody.classList.toggle('border-primary');
+
     for (let i = 0; i < text.length; i++) {
         text[i].classList.remove('text-dark');
         text[i].classList.toggle('text-info');
@@ -58,6 +65,8 @@ function toggleDarkMode(){
    
    // console.log(document.body.classList);
    bgtext.textContent = 'dark';
+   console.log(logo);
+   logo.src = "./images/large_thumbnail_dark.png";
    
    if(charts.length != 0){
         Chart.defaults.color = "#FFFFFF";
@@ -74,11 +83,16 @@ function toggleDarkMode(){
 function toggleLightMode(){
      for (let i = 0; i < bg.length; i++) {
         bg[i].classList.remove('bg-dark');
-         bg[i].classList.remove('border-primary');
+        bg[i].classList.remove('border-primary');
 
         bg[i].classList.toggle('bg-light');
        
     }
+
+    // footer bar
+    bgBody.classList.remove('bg-dark');
+    bgBody.classList.remove('bo-primary');
+    bgBody.classList.toggle('bg-white');
 
     for (let i = 0; i < text.length; i++) {
         text[i].classList.remove('text-info');
@@ -88,7 +102,8 @@ function toggleLightMode(){
     document.body.classList.remove('bg-dark');
     document.body.classList.toggle('bg-light');
 
-     bgtext.textContent = 'light';
+    bgtext.textContent = 'light';
+    logo.src = "./images/large_thumbnail.png";
    
    // console.log(document.body.classList);
    

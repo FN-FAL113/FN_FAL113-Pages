@@ -1,5 +1,8 @@
 	body {
 		background-color: whitesmoke;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		transition: background-color 2.0s;
 	}
 
 	#btn-back-to-top {
@@ -7,6 +10,14 @@
 		bottom: 30px;
   		right: 30px;
 		display: none;
+	}
+
+	#nav-trans {
+		transition: background-color 2.0s;
+	}
+
+	.bg-lightgrey{
+		background-color: rgb(129, 129, 129);
 	}
 
 	div.chart {
@@ -47,6 +58,13 @@
 			padding: 20px;
 		}
 	}
+	@media only screen and (max-width: 200px){
+		div.chart {
+			width: 100px;
+			height: 100px;
+			padding: 20px;
+		}
+	}
 
 
 	@media only screen and (max-width: 700px){
@@ -62,6 +80,11 @@
 	@media only screen and (max-width: 300px){
 		button.footertext {
 			font-size: 7px;
+		}
+	}
+	@media only screen and (max-width: 200px){
+		button.footertext {
+			font-size: 6px;
 		}
 	}
 
