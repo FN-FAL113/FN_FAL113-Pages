@@ -65,7 +65,6 @@ function toggleDarkMode(){
    
    // console.log(document.body.classList);
    bgtext.textContent = 'dark';
- 
    logo.src = "./images/large_thumbnail_dark.png";
    
    if(charts.length != 0){
