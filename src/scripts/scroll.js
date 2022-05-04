@@ -6,12 +6,15 @@ window.onscroll = function () {
 	onScrollDown();
 }
 
+console.log(nav);
+
 function toggleTransparentNav(){
 	nav.classList.toggle('bg-light');
 	nav.classList.toggle('bg');
 	nav.classList.remove('shadow');
 	nav.classList.remove('border-bottom');
 	nav.classList.remove('bg-lightgrey');
+	nav.classList.remove('nav-trans');
 }
 
 function toggleNonTransparentNav(){
@@ -20,12 +23,14 @@ function toggleNonTransparentNav(){
 		nav.classList.remove('bg');
 		nav.classList.toggle('bg-lightgrey')
 		nav.classList.toggle('border-bottom');
+		nav.classList.toggle('nav-trans');
 	} else if (!nav.classList.contains('bg-lightgrey')) {
 		nav.classList.remove('bg-light');
 		nav.classList.remove('bg');
 		nav.classList.toggle('bg-lightgrey');
 		nav.classList.toggle('border-bottom');
 		nav.classList.toggle('shadow');
+		nav.classList.toggle('nav-trans');
 	}
 }
 

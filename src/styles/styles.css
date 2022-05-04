@@ -12,7 +12,7 @@
 		display: none;
 	}
 
-	#nav-trans {
+	.nav-trans {
 		transition: background-color 2.0s;
 	}
 
