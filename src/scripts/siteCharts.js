@@ -149,7 +149,7 @@ async function fetchDateSumData(chart, leafNode, field, dateRange, isMap){
     var email = document.getElementById('email').value;
     var apiKey = document.getElementById('apiKey').value;
     var zoneTag = document.getElementById('zoneTag').value;
-    var api_url = 'https://cors-proxy.falfn113.workers.dev/client/v4/graphql'
+    var api_url = 'https://cors-proxy.falfn113.workers.dev/?https://api.cloudflare.com/client/v4/graphql'
 
     if(!validateField(email, apiKey, zoneTag)){
         return;
