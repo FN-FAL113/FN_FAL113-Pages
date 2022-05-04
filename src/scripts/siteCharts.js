@@ -194,10 +194,10 @@ const myChartCountryMap = createPieChart(ctxPageCountryMap, '# of Request Per Co
 fetchDateSumData(myChartCountryMap, 
     'httpRequests1hGroups', 
     `countryMap {
-            bytes
-            requests
-            threats
-            clientCountryName
+        bytes
+        requests
+        threats
+        clientCountryName
     }`, 2, true);  
 
 });
