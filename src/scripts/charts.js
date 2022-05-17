@@ -1,3 +1,5 @@
+import {createBarChart, createPieChart, createPolarChart} from './modules/chart-module.js';
+
 const ctx = document.getElementById('myChartFNAmp').getContext('2d');
 const ctxPlayers = document.getElementById('myChartFNAmpPlayers').getContext('2d');
 const ctxServerVer = document.getElementById('myChartFNAmpServerVer').getContext('2d');
@@ -11,114 +13,6 @@ const ctx2ServerVer = document.getElementById('myChartSfChunkServerVer').getCont
 const ctx2PluginVer = document.getElementById('myChartSfChunkPluginVer').getContext('2d');
 const ctx2PluginCountry = document.getElementById('myChartSfChunkPluginCountry').getContext('2d');
 
-function createBarChart(ctx, label){
-	return new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: [],
-        datasets: [{
-            label: label,
-            data: [],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-    	maintainAspectRatio: false,
-    	responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-	});
-}
-
-function createPieChart(ctx, label, type){
-	return new Chart(ctx, {
-  		type: type,
-  		data: {
-  			labels: [],
-  			datasets: [{
-    			label: label,
-    			data: [],
-    			backgroundColor: [
-      			'rgb(255, 99, 132)',
-      			'rgb(54, 162, 235)',
-      			'rgb(255, 205, 86)'
-    			],
-    			hoverOffset: 4
-  			}]
-		},
-		options: {
-			 plugins: {
-            	title: {
-                display: true,
-                text: label
-            }
-        },
-        maintainAspectRatio: false,
-    	responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-	});
-	
-}
-
-function createPolarChart(ctx, label, type){
-	return new Chart(ctx, {
-  		type: 'polarArea',
-  		data: {
-  			labels: [],
-  			datasets: [{
-    			label: label,
-    			data: [],
-    			backgroundColor: [
-      			'rgb(255, 99, 132)',
-      			'rgb(75, 192, 192)',
-      			'rgb(255, 205, 86)',
-      			'rgb(201, 203, 207)',
-      			'rgb(54, 162, 235)'
-    			]
-  			}]
-		},options: {
-			plugins: {
-            title: {
-                display: true,
-                text: label
-            }
-        },
-        maintainAspectRatio: false,
-    	responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-	});
-	
-}
 
 /* Having hard time with these, fuck!
 function createAndUpdateTopography(ctx){
@@ -163,53 +57,55 @@ fetch('https://bstats.org/api/v1/plugins/13219/charts/location/data').then((repo
 
 }*/
 
-function fetchUpdateSingleBarChart(api_url, myChart){
-	fetch(api_url)
-  	.then(res => res.json())
-  	.then(function(data) {
-	var date = new Date(data[47][0]).toLocaleString();
-
-  	myChart.data.labels.push(date);
+async function fetchUpdateSingleBarChart(api_url, myChart){
+  try {
+    const response = await fetch(api_url);
+    const data = await response.json();
+    const date = new Date(data[47][0]).toLocaleString();
+  
+    myChart.data.labels.push(date);
     myChart.data.datasets.forEach((dataset) => {
         dataset.data.push(data[47][1]);
         dataset.data.push(data[47][1] + 20);
     });
-
+  
     myChart.update();
-});
-
+  } catch (error) {
+    console.log('An error has occured: ' + error);
+  }
 }
 
-
-function fetchUpdateMultiBarChart(api_url, myChart){
-	fetch(api_url)
-  	.then(res => res.json())
-  	.then(function(data) {
-  	
-  	data.forEach((dataArray) =>{	
-  		myChart.data.labels.push(new Date(dataArray[0]).toLocaleString());	
-  		myChart.data.datasets[0].data.push(dataArray[1]);
-  	});
+async function fetchUpdateMultiBarChart(api_url, myChart){
+  try {
+    const response = await fetch(api_url);
+    const data = await response.json();
+  
+    data.forEach((dataArray) =>{	
+      myChart.data.labels.push(new Date(dataArray[0]).toLocaleString());	
+      myChart.data.datasets[0].data.push(dataArray[1]);
+    });
     
     myChart.update();
-});
-
+  } catch (error) {
+    console.log('An error has occured: ' + error);
+  }
 }
 
-function fetchUpdatePieChart(api_url, myChart){
-	fetch(api_url)
-  	.then(res => res.json())
-  	.then(function(data) {
-  		
-  	data.forEach((dataArray) =>{
-  		myChart.data.labels.push(dataArray.name);	
-  		myChart.data.datasets[0].data.push(dataArray.y);
-  		
-  	});
-    
-    myChart.update();
-});
+async function fetchUpdatePieChart(api_url, myChart){
+  try {
+    const response = await fetch(api_url);
+    const data = await response.json();
 
+    data.forEach((dataArray) =>{
+    myChart.data.labels.push(dataArray.name);	
+    myChart.data.datasets[0].data.push(dataArray.y);
+    
+    })
+      
+    myChart.update();
+  } catch (error) {
+      console.log('An error has occured: ' + error);
+  }
 }
 
 // FNAmplifications

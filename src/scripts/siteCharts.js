@@ -1,90 +1,8 @@
+import {createBarChart, createPieChart, createPolarChart} from './modules/chart-module.js';
+
 const ctxPageViews = document.getElementById('myChartPageViews').getContext('2d');
 const ctxPageRequests = document.getElementById('myChartPageRequests').getContext('2d');
 const ctxPageCountryMap = document.getElementById('myChartCountryMap').getContext('2d');
-
-function destroyExistingChart(ctx){
-    if (Chart.getChart(ctx) != undefined) {
-        Chart.getChart(ctx).destroy();
-    }
-}
-
-function createBarChart(ctx, label){
-    destroyExistingChart(ctx);
-    
-	return new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: [],
-        datasets: [{
-            label: label,
-            data: [],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-    	maintainAspectRatio: false,
-    	responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-	});
-}
-
-function createPieChart(ctx, label, type){
-    destroyExistingChart(ctx);
-
-	return new Chart(ctx, {
-  		type: type,
-  		data: {
-  			labels: [],
-  			datasets: [{
-    			label: label,
-    			data: [],
-    			backgroundColor: [
-      			'rgb(255, 99, 132)',
-      			'rgb(54, 162, 235)',
-      			'rgb(255, 205, 86)'
-    			],
-    			hoverOffset: 4
-  			}]
-		},
-		options: {
-			 plugins: {
-            	title: {
-                display: true,
-                text: label
-            }
-        },
-        maintainAspectRatio: false,
-    	responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-	});
-	
-}
 
 function fetchAPI(url, email, apiKey, zoneTag, leafNode, field, dateRange) {
     const today = new Date();
@@ -154,18 +72,13 @@ async function fetchDateSumData(chart, leafNode, field, dateRange, isMap){
     if(!validateField(email, apiKey, zoneTag)){
         return;
     }
+    
+    try {
+        const response = await fetchAPI(api_url, email, apiKey, zoneTag, leafNode, field, dateRange);
+        const dataObject = await response.json();
 
-    fetchAPI(api_url, email, apiKey, zoneTag, leafNode, field, dateRange)
-    .then(res => {
-      if (res.status == 200) {
-        return res.json();
-      }
-      return res.text().then(text => { throw new Error(text) })
-    })
-    .then(function(dataObject) {
-        //console.log(dataObject);
-        
-        dataObject.data.viewer.zones[0].httpRequests1hGroups.forEach((dataArray) =>{     
+         //console.log(dataObject);
+         dataObject.data.viewer.zones[0].httpRequests1hGroups.forEach((dataArray) =>{     
             if(!isMap){
                 chart.data.labels.push(dataArray.date.date);  
                 chart.data.datasets[0].data.push(dataArray.sum[field]);
@@ -178,9 +91,10 @@ async function fetchDateSumData(chart, leafNode, field, dateRange, isMap){
         });
         
         chart.update();   
-    });
+    } catch (error) {
+        console.log('error has occured: ' + error);
+    }
 } 
-
 
 document.getElementById('fetch').addEventListener('click', async function() {
 
