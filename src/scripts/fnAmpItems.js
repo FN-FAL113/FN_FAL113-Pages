@@ -1,7 +1,7 @@
 async function getData(){
     try {
-        var api_url = `https://cors-proxy.falfn113.workers.dev/?https://fnampitem.falfn113.workers.dev`
-        //var api_url = `https://cors-anywhere.herokuapp.com/https://fnampitem.falfn113.workers.dev`
+        //var api_url = `https://cors-proxy.falfn113.workers.dev/?https://fnampitem.falfn113.workers.dev`
+        var api_url = `https://cors-anywhere.herokuapp.com/https://fnampitem.falfn113.workers.dev`
         const response = await fetch(api_url);
         const dataObject = await response.json();
 
