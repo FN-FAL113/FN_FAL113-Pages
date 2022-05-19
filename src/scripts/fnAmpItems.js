@@ -10,7 +10,11 @@ async function getData(){
             let recipeArr = element.recipe.split(',');
         
             var li = document.createElement('div');
-            li.className = "col-4 mx-auto py-2";
+            if($(window).width() < 400){
+                li.className = "col-6 mx-auto py-2";
+            } else {
+                li.className = "col-4 mx-auto py-2";
+            }
             
             let num = i + 1;
 
