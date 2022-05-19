@@ -10,7 +10,7 @@ async function getData(){
             let recipeArr = element.recipe.split(',');
         
             var li = document.createElement('div');
-            li.className = "col-3 mx-auto py-2";
+            li.className = "col-4 mx-auto py-2";
             
             let num = i + 1;
 
@@ -48,7 +48,7 @@ async function getData(){
 
 async function innerElement(li, item, element, recipeArr, context, i, lore){
     li.innerHTML = `
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal${i}">
+        <button type="button" class="btn btn-sm btn-primary buttons" data-toggle="modal" data-target="#exampleModal${i}">
         ${item}
         </button>
     
