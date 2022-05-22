@@ -6,6 +6,7 @@ let text = document.querySelectorAll('.text-dark');
 let charts =  document.querySelectorAll('canvas');
 let projectsText =  document.querySelectorAll('p.text-dark');
 let logo = document.getElementById('logo');
+let navBar = document.querySelector('#nav-trans');
 
 checkAndToggle();
 
@@ -13,11 +14,11 @@ btn.addEventListener('click', e => {
 
     if(localStorage.getItem('isDarkMode') == 'false'){
         localStorage.setItem('isDarkMode', 'true');
-        toggleDarkMode();
+        toggleDarkMode(true);
         toggleModalDarkMode();
     } else {
         localStorage.setItem('isDarkMode', 'false');
-        toggleLightMode();
+        toggleLightMode(true);
         toggleModalLightMode();
     }
 
@@ -26,7 +27,7 @@ btn.addEventListener('click', e => {
 
 function checkAndToggle(){
      if(localStorage.getItem('isDarkMode') != true){
-        toggleDarkMode();
+        toggleDarkMode(false);
         setTimeout(() => toggleModalDarkMode(), 700);
         return;
     }
@@ -34,8 +35,14 @@ function checkAndToggle(){
     setTimeout(() => toggleModalLightMode(), 700);
 }
 
-function toggleDarkMode(){
+function toggleDarkMode(isClicked){
     if(localStorage.getItem('isDarkMode') == 'false'){ return; }
+
+    // No background fading when reloading the page
+    navBar.classList.remove('nav-trans')
+    if(isClicked){
+        navBar.classList.toggle('nav-trans')
+    }
 
      for (let i = 0; i < bg.length; i++) {
         bg[i].classList.remove('bg-light');
@@ -80,8 +87,14 @@ function toggleDarkMode(){
    
 }
 
-function toggleLightMode(){
+function toggleLightMode(isClicked){
     if(localStorage.getItem('isDarkMode') == 'true'){ return; }
+
+     // No background fading when reloading the page
+     navBar.classList.remove('nav-trans')
+     if(isClicked){
+         navBar.classList.toggle('nav-trans')
+     }
 
     for (let i = 0; i < bg.length; i++) {
         bg[i].classList.remove('bg-dark');
