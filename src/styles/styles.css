@@ -15,6 +15,11 @@
 		transition: background-color 2.0s;
 	}
 
+	.navbar-toggler{
+		border: none;
+		outline: none;
+	}
+
 	.bg-lightgrey{
 		background-color: rgb(129, 129, 129);
 	}
