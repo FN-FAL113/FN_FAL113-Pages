@@ -2,7 +2,6 @@
 		background-color: whitesmoke;
 		padding-top: 70px;
 		padding-bottom: 70px;
-	
 	}
 
 	#btn-back-to-top {
@@ -88,3 +87,25 @@
 		}
 	}
 	
+
+	div.modal-dark .modal-content {
+		background-color: #1e2229;
+		color: white;
+	}
+	
+
+	div.modal-dark .modal-content .modal-footer {
+		border-color: #424242;
+		color: white;
+	}
+	
+	div.modal-dark .form-control {
+		background-color: #282d36;
+		border-color: #282d36;
+		color: white;
+	}
+
+	div.modal-dark .table{
+		color: white;
+	}
+

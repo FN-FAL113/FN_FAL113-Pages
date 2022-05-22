@@ -7,7 +7,6 @@ let charts =  document.querySelectorAll('canvas');
 let projectsText =  document.querySelectorAll('p.text-dark');
 let logo = document.getElementById('logo');
 
-
 checkAndToggle();
 
 btn.addEventListener('click', e => {
@@ -15,9 +14,11 @@ btn.addEventListener('click', e => {
     if(localStorage.getItem('isDarkMode') == 'false'){
         localStorage.setItem('isDarkMode', 'true');
         toggleDarkMode();
+        toggleModalDarkMode();
     } else {
         localStorage.setItem('isDarkMode', 'false');
         toggleLightMode();
+        toggleModalLightMode();
     }
 
     btn.blur();
@@ -26,9 +27,11 @@ btn.addEventListener('click', e => {
 function checkAndToggle(){
      if(localStorage.getItem('isDarkMode') != true){
         toggleDarkMode();
+        setTimeout(() => toggleModalDarkMode(), 700);
         return;
     }
     toggleLightMode();
+    setTimeout(() => toggleModalLightMode(), 700);
 }
 
 function toggleDarkMode(){
@@ -118,3 +121,58 @@ function toggleLightMode(){
    
 }
 
+function toggleModalDarkMode(){
+    if(localStorage.getItem('isDarkMode') == 'false'){ return; }
+
+    let modal = document.querySelectorAll('.modal');
+    let modalContent = document.querySelectorAll('.modal-content');
+    let modalContentFooter = document.getElementsByClassName('.modal .modal-content .modal-footer');
+    let modalContentForm = document.getElementsByClassName('.modal .form-control');
+    let modalContenttable = document.getElementsByClassName('.modal .table');
+   
+    if(modal.length != 0 && modalContent.length != 0){
+        for(let i = 0; i < modal.length; i++){
+            modal[i].classList.toggle('modal-dark');
+        }
+        for(let i = 0; i < modalContent.length; i++){
+            modalContent[i].classList.toggle('modal-dark');
+        }
+        for(let i = 0; i < modalContentFooter.length; i++){
+            modalContentFooter[i].classList.toggle('modal-dark');
+        }
+        for(let i = 0; i < modalContentForm.length; i++){
+            modalContentForm[i].classList.toggle('modal-dark');
+        }
+        for(let i = 0; i < modalContenttable.length; i++){
+            modalContenttable[i].classList.toggle('modal-dark');
+        }
+    }
+}
+
+function toggleModalLightMode(){
+    if(localStorage.getItem('isDarkMode') == 'true'){ return; }
+
+    let modal = document.querySelectorAll('.modal');
+    let modalContent = document.querySelectorAll('.modal-content');
+    let modalContentFooter = document.getElementsByClassName('.modal .modal-content .modal-footer');
+    let modalContentForm = document.getElementsByClassName('.modal .form-control');
+    let modalContenttable = document.getElementsByClassName('.modal .table');
+
+    if(modal.length != 0 && modalContent.length != 0){
+        for(let i = 0; i < modal.length; i++){
+            modal[i].classList.remove('modal-dark');
+        }
+        for(let i = 0; i < modalContent.length; i++){
+            modalContent[i].classList.remove('modal-dark');
+        }
+        for(let i = 0; i < modalContentFooter.length; i++){
+            modalContentFooter[i].classList.remove('modal-dark');
+        }
+        for(let i = 0; i < modalContentForm.length; i++){
+            modalContentForm[i].classList.remove('modal-dark');
+        }
+        for(let i = 0; i < modalContenttable.length; i++){
+            modalContenttable[i].classList.remove('modal-dark');
+        }
+    }
+}

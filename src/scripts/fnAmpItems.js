@@ -1,6 +1,6 @@
 async function getData(){
     try {
-        var api_url = `https://api.allorigins.win/raw?url=https://fnampitem.falfn113.workers.dev`
+        var api_url = `https://raw.githubusercontent.com/FN-FAL113/FN_FAL113-Pages/main/src/json/fnItems.json`
         const response = await fetch(api_url);
         const dataObject = await response.json();
 
@@ -66,13 +66,17 @@ async function innerElement(li, item, element, recipeArr, context, i, lore){
                 </button>
                 </div>
                 
+                <div class="modal-body"><strong class="text-center">Item ID:</strong> <br>${element.id}</div>
+                <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Crafting Station:</strong> <br>${element.recipe_type}</div>
                 <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Category:</strong> <br>${element.category}</div>
                 <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Lore</strong> <br>${lore}</div>
                 <div class="modal-footer"></div>
-                <div class="modal-body"><strong class="text-center">Recipe</strong> <br>
+                <div class="modal-body"><strong class="text-center">Enchantable:</strong> <br>${element.enchantable}<br><br><strong>Disenchantable:</strong> <br>${element.disenchantable}</div>
+                <div class="modal-footer"></div>
+                <div class="modal-body"><strong class="text-center">Recipe</strong><br>
                     <table class="table table-bordered">
                         <tbody>
                             <tr>
