@@ -32,7 +32,7 @@ function toggleNonTransparentNav(){
 function onScrollDown(){
 	if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
 		backToTop.style.display = "block";
-		console.log('tesst');
+		nav.classList.add('nav-trans')
 		toggleNonTransparentNav();
 	} else {
 		backToTop.style.display = "";
