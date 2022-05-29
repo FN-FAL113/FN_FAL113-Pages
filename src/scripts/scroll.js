@@ -1,5 +1,6 @@
 let backToTop = document.getElementById("btn-back-to-top");
-let nav = document.getElementById("nav-trans"); 
+let nav = document.getElementById("navtrans"); 
+let navText = document.querySelectorAll('.navtext');
 
 
 window.onscroll = function () {
@@ -7,26 +8,48 @@ window.onscroll = function () {
 }
 
 function toggleTransparentNav(){
-	nav.classList.toggle('bg-light');
-	nav.classList.toggle('bg');
+	let isDarkMode = localStorage.getItem('isDarkMode');
 	nav.classList.remove('shadow');
 	nav.classList.remove('border-bottom');
-	nav.classList.remove('bg-lightgrey');
+	nav.classList.remove('bgdark');
+	for (let i = 0; i < navText.length; i++) {
+		if(!navText[i].classList.contains('text-dark')){
+			navText[i].classList.remove('transitioned');
+			if( isDarkMode== 'false'){
+				navText[i].classList.remove('text-info');
+				navText[i].classList.toggle('text-dark');
+			}
+			
+		}
+	}
+	logo.src = "./images/large_thumbnail.png";
 }
 
 function toggleNonTransparentNav(){
 	if(localStorage.getItem('isDarkMode') == 'true' && !nav.classList.contains('border-bottom')){
-		nav.classList.remove('bg-light');
-		nav.classList.remove('bg');
-		nav.classList.toggle('bg-lightgrey')
+		nav.classList.toggle('bgdark')
 		nav.classList.toggle('border-bottom');
-	} else if (!nav.classList.contains('bg-lightgrey')) {
-		nav.classList.remove('bg-light');
-		nav.classList.remove('bg');
-		nav.classList.toggle('bg-lightgrey');
+		for (let i = 0; i < navText.length; i++) {
+			if(!navText[i].classList.contains('text-info')){
+				navText[i].classList.remove('text-dark');
+				navText[i].classList.toggle('text-info');
+				navText[i].classList.toggle('transitioned');
+			}
+		}
+	} else if (!nav.classList.contains('bgdark')) {
+		nav.classList.toggle('bgdark');
 		nav.classList.toggle('border-bottom');
 		nav.classList.toggle('shadow');
+		for (let i = 0; i < navText.length; i++) {
+			if(!navText[i].classList.contains('text-info')){
+				navText[i].classList.remove('text-dark');
+				navText[i].classList.toggle('text-info');
+				navText[i].classList.toggle('transitioned');
+			}
+		}
 	}
+	logo.src = "./images/large_thumbnail_dark.png";
+
 }
 
 function onScrollDown(){
@@ -36,7 +59,6 @@ function onScrollDown(){
 		toggleNonTransparentNav();
 	} else {
 		backToTop.style.display = "";
-		nav.classList.remove('navbar-trans')
 		toggleTransparentNav();	
 	}
 }
@@ -45,3 +67,5 @@ backToTop.addEventListener('click', () =>{
 	document.body.scrollTop = 0;
   	document.documentElement.scrollTop = 0;
 });
+
+

@@ -16,126 +16,133 @@
 </head>
 <body>
 
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg bg-light fixed-top" id="nav-trans" aria-label="Eleventh navbar example">
-      <div class="thumbnail"> 
-        <a class="navbar-brand mx-3" href="#"><span class="text-dark">
-          <img src="./images/large_thumbnail.png" id="logo" alt="" width="34" height="29" class="d-inline-block align-text-top">
-          <strong class="devtext">FN</strong><strong class="fs-6">Dev</strong></span></a>
-        </div>
-        <button class="navbar-toggler" onclick="this.blur();" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-            
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="space blob-lite2">
 
-        <ul class="navbar-nav mr-auto px-3">
-          <li class="nav-item active">
-            <a class="nav-link text-dark navtext" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark navtext" aria-current="page" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark navtext" aria-current="page" href="pluginStats.html">Plugin Stats</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark navtext" aria-current="page" href="websiteStats.html">Website Stats</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark navtext" aria-current="page" href="fnAmpItems.html">FNAmp Items</a>
-          </li>
-          <li class="nav-item dropdown navtext">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   Socials</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown09">
-                <li><a class="dropdown-item text-dark" href="https://github.com/FN-FAL113/" target=_blank>Github</a></li>
-                <li><a class="dropdown-item text-dark" href="https://www.youtube.com/channel/UCP7YiykhJSFQt1ce7dp-rZg" target=_blank>   Youtube</a></li>
-                <li><a class="dropdown-item text-dark" href="https://steamcommunity.com/id/JPachelbel" target=_blank>Steam</a></li>
-              </ul>
-          </li>
-        </ul>       
-        
-      </div>
-    </nav>
-  </div>
-     
-  <div class="container window"> 
-    <form action="./websiteStats.html" method="POST">
-      <div class="row bg-light rounded mx-auto">    
-
-        <div class="col-sm-4 mt-1 mx-auto">
-          <label class="text-dark" for="floatingInput">Email</label>
-          <input type="email" class="form-control shadow" id="email" placeholder="email">
-          <span id="error1" style="font-size: 13px; color: red;"></span>
-        </div>
-
-        </div>  
-      
-        <div class="row bg-light rounded mx-auto"> 
-          <div class="col-sm-4 mt-1 mx-auto">
-            <label class="text-dark" for="floatingInput">API Key</label>
-            <input type="password" class="form-control shadow" id="apiKey" placeholder="api key">
-            <span id="error2" style="font-size: 13px; color: red;"></span>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navtrans" aria-label="Eleventh navbar example">
+        <div class="thumbnail"> 
+          <a class="navbar-brand mx-3" href="#"><span class="text-dark">
+            <img src="./images/large_thumbnail.png" id="logo" alt="" width="34" height="29" class="d-inline-block align-text-top">
+            <strong class="devtext navtext text-dark">FN</strong><strong class="fs-6 navtext text-dark">Dev</strong></span></a>
           </div>
-        </div>
-
-        <div class="row bg-light rounded mx-auto">
-           <div class="col-sm-4 mt-1 mx-auto">
-            <label class="text-dark" for="floatingInput">Zone</label>
-            <input type="password" class="form-control shadow" id="zoneTag" placeholder="zone">
-           <span id="error3" style="font-size: 13px; color: red;"></span>
-          </div>
-        </div>
-
-        <div class="row bg-light rounded mx-auto">          
-          <div class="col-sm-4 mt-1 mt-4 mx-auto">
-            <button id="fetch" class="btn-primary btn btn-md" id="fetch" type="button" data-testid="add-site-button">
-            Fetch analytics
-            </button>
-          </div>
-        </div>
-
-    </form>
-  </div>
+          <button class="navbar-toggler" onclick="this.blur();" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
   
-   <div class="container py-3 window">
+          <ul class="navbar-nav mr-auto px-3">
+            <li class="nav-item active">
+              <a class="nav-link text-dark navtext" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark navtext" aria-current="page" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark navtext" aria-current="page" href="pluginStats.html">Plugin Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark navtext" aria-current="page" href="websiteStats.html">Website Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark navtext" aria-current="page" href="fnAmpItems.html">FNAmp Items</a>
+            </li>
+            <li class="nav-item dropdown navtext">
+              <a class="nav-link dropdown-toggle navtext text-dark" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   Socials</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown09">
+                  <li><a class="dropdown-item navtext text-dark" href="https://github.com/FN-FAL113/" target=_blank>Github</a></li>
+                  <li><a class="dropdown-item navtext text-dark" href="https://www.youtube.com/channel/UCP7YiykhJSFQt1ce7dp-rZg" target=_blank>   Youtube</a></li>
+                  <li><a class="dropdown-item navtext text-dark" href="https://steamcommunity.com/id/JPachelbel" target=_blank>Steam</a></li>
+                </ul>
+            </li>
+          </ul>       
+          
+        </div>
+      </nav>
+    </div>
 
-        <div class="row bg-light border rounded mx-auto">
-          <div class="col-8 mx-auto chart">
-            <canvas id="myChartPageViews" width="20" height="30"></canvas>
+    <div class="container py-3 window"> 
+      <form action="./websiteStats.html" method="POST">
+        <div class="row rounded mx-auto mt-5">    
+  
+          <div class="col-sm-4 mt-1 mx-auto">
+            <label class="text-dark" for="floatingInput">Email</label>
+            <input type="email" class="form-control shadow" id="email" placeholder="email">
+            <span id="error1" style="font-size: 13px; color: red;"></span>
           </div>
-          <div class="col-4 mx-auto chart">
-            <canvas id="myChartPageRequests" width="20" height="30"></canvas>
+  
+          </div>  
+        
+          <div class="row rounded mx-auto"> 
+            <div class="col-sm-4 mt-1 mx-auto">
+              <label class="text-dark" for="floatingInput">API Key</label>
+              <input type="password" class="form-control shadow" id="apiKey" placeholder="api key">
+              <span id="error2" style="font-size: 13px; color: red;"></span>
+            </div>
           </div>
-        </div> 
-      
-        <div class="row bg-light border rounded mx-auto">
-          <div pad class="col-6 mx-auto chart">
-            <canvas id="myChartCountryMap" width="20" height="30"></canvas>
+  
+          <div class="row rounded mx-auto">
+             <div class="col-sm-4 mt-1 mx-auto">
+              <label class="text-dark" for="floatingInput">Zone</label>
+              <input type="password" class="form-control shadow" id="zoneTag" placeholder="zone">
+             <span id="error3" style="font-size: 13px; color: red;"></span>
+            </div>
+          </div>
+  
+          <div class="row rounded mx-auto">          
+            <div class="col-sm-4 mt-1 mt-4 mx-auto">
+              <button id="fetch" class="btn-primary btn btn-md" id="fetch" type="button" data-testid="add-site-button">
+              Fetch analytics
+              </button>
+            </div>
+          </div>
+  
+      </form>
+    </div>
+    
+    <div class="container py-3 window">
+
+      <div class="row rounded mx-auto">
+        <div class="col-8 mx-auto chart bgOpaqueDark">
+          <canvas id="myChartPageViews" width="20" height="30"></canvas>
+        </div>
+        <div class="col-4 mx-auto chart bgOpaqueDark">
+          <canvas id="myChartPageRequests" width="20" height="30"></canvas>
+        </div>
+      </div> 
+    
+      <div class="row rounded mt-2 mx-auto">
+        <div pad class="col-6 mx-auto chart bgOpaqueDark">
+          <canvas id="myChartCountryMap" width="20" height="30"></canvas>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="container-fluid border-top border-primary">
+      <footer class="d-flex justify-content-between mx-auto">
+    
+        <div class="row mx-auto">  
+          <div class="col-12">
+            <a href="https://github.com/FN-FAL113" target="_blank">
+            <button class="btn btn-sm text-muted btn-block footertext"><span class="text-dark text-center">&copy; 2022 FN_FAL113 Dev</span></button>
+            </a>
+          </div> 
+        </div>
+    
+        <div class="row">
+          <div class="col-12">
+            <button class="btn btn-sm text-dark btn-block footertext bg-button" id="bg-button" title="Shift-click to use normal colors">Theme: <span class="text-dark" id="bgtheme">light</span></button>
           </div>
         </div>
-      
-  </div>
+    
+      </footer>
+    </div>  
+     
+  </div> <!-- Waves 1 -->
+     
 
-  <div class="container bg bg-white rounded border fixed-bottom">
-    <footer class="d-flex justify-content-between mx-auto shadow-lg">
 
-      <div class="row">  
-        <div class="col-12">
-          <a href="https://github.com/FN-FAL113" target="_blank">
-           <button class="btn btn-sm text-muted btn-block footertext"><span class="text-muted">&copy; 2022 FN_FAL113 Dev</span></button>
-          </a>
-        </div> 
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <button class="btn btn-sm text-muted btn-block footertext bg-button" id="bg-button" title="Shift-click to use normal colors">Theme: <span class="text-muted" id="bgtheme">light</span></button>
-        </div>
-      </div>
-
-    </footer>
-  </div>
 
 
   <button type="button" class="btn btn-floating" id="btn-back-to-top">

@@ -19,29 +19,29 @@ async function getData(){
             let num = i + 1;
 
             if(element.category == "FN Magical Items"){
-                innerElement(li, item, element, recipeArr, document.getElementById('magicalitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('magicalitems')[0], num, lore)
             } else if(element.category == "FN Machinery Items"){
-                innerElement(li, item, element, recipeArr, document.getElementById('machineryitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('machineryitems')[0], num, lore)
             } else if(element.category == "FN Material Generators"){
-                innerElement(li, item, element, recipeArr, document.getElementById('materialgenitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('materialgenitems')[0], num, lore)
             } else if(element.category == "FN Power Xpansion"){
-                innerElement(li, item, element, recipeArr, document.getElementById('powerxitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('powerxitems')[0], num, lore)
             } else if(element.category == "FN Solar Generators"){
-                innerElement(li, item, element, recipeArr, document.getElementById('solargenitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('solargenitems')[0], num, lore)
             } else if(element.category == "FN Machinery"){
-                innerElement(li, item, element, recipeArr, document.getElementById('machineriesitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('machineriesitems')[0], num, lore)
             } else if(element.category == "FN Mystery PVP/PVE Sticks"){
-                innerElement(li, item, element, recipeArr, document.getElementById('mysteryitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('mysteryitems')[0], num, lore)
             } else if(element.category == "FN Gears of Friction"){
-                innerElement(li, item, element, recipeArr, document.getElementById('gearitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('gearitems')[0], num, lore)
             } else if(element.category == "FN Miscellaneous"){
-                innerElement(li, item, element, recipeArr, document.getElementById('miscitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('miscitems')[0], num, lore)
             } else if(element.category == "FN Gems"){
-                innerElement(li, item, element, recipeArr, document.getElementById('gemitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('gemitems')[0], num, lore)
             } else if(element.category == "FN Staffs"){
-                innerElement(li, item, element, recipeArr, document.getElementById('staffitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('staffitems')[0], num, lore)
             } else if(element.category == "Metal Scrap Recipes"){
-                innerElement(li, item, element, recipeArr, document.getElementById('scrapitems'), num, lore)
+                innerElement(li, item, element, recipeArr, document.getElementsByClassName('scrapitems')[0], num, lore)
             } 
             
         });
@@ -56,9 +56,9 @@ async function innerElement(li, item, element, recipeArr, context, i, lore){
         ${item}
         </button>
     
-        <div class="modal" id="exampleModal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
+        <div class="modal" data-backdrop="false" id="exampleModal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog window" role="document">
+            <div class="modal-content bgOpaqueDark" id="bgBlurHigh">
                 <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">${element.item}</h5>
                 <button type="button" class="close btn btn-info" data-dismiss="modal" aria-label="Close">

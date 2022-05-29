@@ -1,7 +1,71 @@
 	body {
-		background-color: whitesmoke;
-		padding-top: 70px;
-		padding-bottom: 70px;
+		font-family: 'Prompt', sans-serif;
+		overflow-x: hidden;
+	}
+
+	.bgdark {
+		background-color: #001220;
+	}
+	#bgdark {
+		background-color: #001220;
+	}
+
+	.bgOpaqueLite{
+		background-color: rgba(72, 95, 132, 0.8);  
+	}
+	.bgOpaqueDark{
+		background-color: rgba(154, 152, 180, 0.75);  
+	}
+
+	.space {
+		aspect-ratio: 960/540;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	img.fngun {
+		border: none;
+		border-radius: 50%;
+	}
+
+	.bloblite{
+		background-image: url('../images/blob-scene-lite.svg');
+	}
+	.blobdark{
+		background-image: url('../images/blob-scene-dark.svg');
+	}
+
+
+	.layeredwaveslite1 {
+		background-image: url('../images/layered-waves-lite-1.svg');
+	}
+	.layeredwavesdark1 {
+		background-image: url('../images/layered-waves-dark-1.svg');
+	}
+
+
+	.waveslite1{
+		background-image: url('../images/wave-lite-1.svg');
+	}
+
+	.wavesdark1{
+		background-image: url('../images/wave-dark-1.svg');
+	}
+
+	.blob-lite2{
+		background-image: url('../images/blob-scene-lite-2.svg');
+	}
+	.blob-lite-inverted2{
+		background-image: url('../images/blob-scene-lite-inverted-2.svg');
+	}
+	.blob-dark2{
+		background-image: url('../images/blob-scene-dark-2.svg');
+	}
+
+	.blob-dark-inverted2{
+		background-image: url('../images/blob-scene-dark-inverted-2.svg');
 	}
 
 	#btn-back-to-top {
@@ -12,7 +76,11 @@
 	}
 
 	.nav-trans {
-		transition: background-color 2.0s;
+		transition: background-color 1.0s;
+	}
+
+	.bg-trans {
+		transition: background-image 0.6s;
 	}
 
 	.navbar-toggler{
@@ -25,7 +93,7 @@
 	}
 
 	div.chart {
-		width: 700px;
+		width: 640px;
 		height: 500px;
 		padding: 20px;
 	}
@@ -137,6 +205,11 @@
 		to{ transform: translateX(0px) }
 	}
 
+	@keyframes leftToRight {
+		from{ transform: translateX(-70px)}
+		to{ transform: translateX(0px) }
+	}
+
 	@keyframes maxLeftToRight {
 		from{ transform: translateX(-700px)}
 		to{ transform: translateX(0px) }
@@ -146,4 +219,3 @@
 		from{ transform: translateY(-70px)}
 		to{ transform: translateY(0px) }
 	}
-
