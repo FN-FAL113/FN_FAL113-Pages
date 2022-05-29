@@ -1,6 +1,7 @@
 	body {
 		font-family: 'Prompt', sans-serif;
 		overflow-x: hidden;
+		margin: 0px;
 	}
 
 	.bgdark {
@@ -21,7 +22,7 @@
 		aspect-ratio: 960/540;
 		width: 100%;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center top;
 		background-size: cover;
 	}
 
@@ -156,6 +157,37 @@
 	@media only screen and (max-width: 200px){
 		button.footertext {
 			font-size: 6px;
+		}
+	}
+
+	@media only screen and (max-width: 1200px){
+		.space {
+			height: 900px;
+		}
+	}
+	@media only screen and (max-width: 900px){
+		.space {
+			height: 900px;
+		}
+	}
+	@media only screen and (max-width: 700px){
+		.space {
+			height: 900px;
+		}
+	}
+	@media only screen and (max-width: 400px){
+		.space {
+			height: 900px;
+		}
+	}
+	@media only screen and (max-width: 300px){
+		.space {
+			height: 900px;
+		}
+	}
+	@media only screen and (max-width: 200px){
+		.space {
+			height: 900px;
 		}
 	}
 	
