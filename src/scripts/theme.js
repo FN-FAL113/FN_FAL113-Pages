@@ -10,6 +10,7 @@ let navBar = document.querySelector('#navtrans');
 let bgTrans = document.querySelectorAll('.bgOpaqueDark');
 let svgBg = document.querySelectorAll('.space');
 let modal = document.querySelectorAll('.modal');
+let navbarToggler = document.querySelector('.navbar')
 
 checkAndToggle();
 
@@ -102,6 +103,11 @@ function toggleDarkMode(isClicked){
         }
     }
 
+    if(!navbarToggler.classList.contains('navbar-dark')){
+        navbarToggler.classList.remove('navbar-light');
+        navbarToggler.classList.toggle('navbar-dark');
+    }
+
    bgtext.textContent = 'dark';
    logo.src = "./images/large_thumbnail_dark.png";
    
@@ -166,6 +172,11 @@ function toggleLightMode(isClicked){
             bgTrans[i].classList.remove('bgOpaqueLite')
             bgTrans[i].classList.toggle('bgOpaqueDark')
         }
+    }
+
+    if(!navbarToggler.classList.contains('navbar-light')){
+        navbarToggler.classList.remove('navbar-dark');
+        navbarToggler.classList.toggle('navbar-light');
     }
 
     bgtext.textContent = 'light';
