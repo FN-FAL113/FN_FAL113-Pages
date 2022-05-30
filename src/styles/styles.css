@@ -201,6 +201,16 @@
 		animation-duration: 1.0s;
 	}
 
+	.window-fill{
+		animation-name: fillWindow;
+		animation-duration: 2.0s;
+	}
+
+	@keyframes fillWindow {
+		from{ opacity: 0;}
+		to{ opacity: 1; }
+	}
+
 	@keyframes leftToRight {
 		from{ transform: translateX(-70px)}
 		to{ transform: translateX(0px) }

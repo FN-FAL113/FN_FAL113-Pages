@@ -2,9 +2,21 @@ let backToTop = document.getElementById("btn-back-to-top");
 let nav = document.getElementById("navtrans"); 
 let navText = document.querySelectorAll('.navtext');
 
+navBarToggler();
 
 window.onscroll = function () {
 	onScrollDown();
+}
+
+// on navbar toggle change to non-transparent nav then vice versa
+function navBarToggler(){
+    $(window).on('show.bs.collapse', function() { 
+        toggleNonTransparentNav();
+    });
+
+    $(window).on('hide.bs.collapse', function() { 
+        toggleTransparentNav();
+    });
 }
 
 function toggleTransparentNav(){
@@ -12,6 +24,7 @@ function toggleTransparentNav(){
 	nav.classList.remove('shadow');
 	nav.classList.remove('border-bottom');
 	nav.classList.remove('bgdark');
+
 	for (let i = 0; i < navText.length; i++) {
 		if(!navText[i].classList.contains('text-dark')){
 			navText[i].classList.remove('transitioned');
@@ -26,20 +39,9 @@ function toggleTransparentNav(){
 }
 
 function toggleNonTransparentNav(){
-	if(localStorage.getItem('isDarkMode') == 'true' && !nav.classList.contains('border-bottom')){
-		nav.classList.toggle('bgdark')
-		nav.classList.toggle('border-bottom');
-		for (let i = 0; i < navText.length; i++) {
-			if(!navText[i].classList.contains('text-info')){
-				navText[i].classList.remove('text-dark');
-				navText[i].classList.toggle('text-info');
-				navText[i].classList.toggle('transitioned');
-			}
-		}
-	} else if (!nav.classList.contains('bgdark')) {
+ 	if (!nav.classList.contains('bgdark')) { 
 		nav.classList.toggle('bgdark');
 		nav.classList.toggle('border-bottom');
-		nav.classList.toggle('shadow');
 		for (let i = 0; i < navText.length; i++) {
 			if(!navText[i].classList.contains('text-info')){
 				navText[i].classList.remove('text-dark');
