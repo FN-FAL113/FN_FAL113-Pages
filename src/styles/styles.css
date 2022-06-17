@@ -206,6 +206,14 @@
 		animation-duration: 2.0s;
 	}
 
+	.relicsImage{
+		text-align: center;
+	}
+
+	.relicsImageheight img{
+		height: 400px;		
+	}
+
 	@keyframes fillWindow {
 		from{ opacity: 0;}
 		to{ opacity: 1; }
