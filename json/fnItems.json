@@ -1,0 +1,1801 @@
+[
+  {
+    "item": "Machine Part",
+    "id": "FN_MACHINERY_MACHINE_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Bronze Ingot x 1, Gold Ingot (4-Carat) x 1, Bronze Ingot x 1, Advanced Circuit Board x 1, Electromagnet x 1, Advanced Circuit Board x 1, Copper Wire x 1, LIGHTNING_ROD x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Component Part",
+    "id": "FN_MACHINERY_COMPONENT_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[COPPER_INGOT x 1, GOLD_INGOT x 1, COPPER_INGOT x 1, Basic Circuit Board x 1, Magnet x 1, Basic Circuit Board x 1, Copper Wire x 1, LIGHTNING_ROD x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Motor Switch",
+    "id": "FN_MACHINERY_MOTOR_SWITCH",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Electric Motor x 1, Aluminum Brass Ingot x 1, Electric Motor x 1, LEVER x 1, REDSTONE x 1, LEVER x 1, Copper Wire x 1, LIGHTNING_ROD x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Gear Part",
+    "id": "FN_MACHINERY_GEAR_PART",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Electric Motor x 1, Cargo Motor x 1, Electric Motor x 1, REDSTONE x 1, Chain x 1, REDSTONE x 1, Copper Wire x 1, Motor Switch x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Thread Part",
+    "id": "FN_MACHINERY_THREAD_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[OAK_PLANKS x 1, STICK x 1, OAK_PLANKS x 1, Copper Wire x 1, STICK x 1, Copper Wire x 1, Copper Wire x 1, STICK x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Compressor Part",
+    "id": "FN_MACHINERY_COMPRESSOR_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[PISTON x 1, NETHER_BRICKS x 1, PISTON x 1, Thread Part x 1, Gear Part x 1, Thread Part x 1, Copper Wire x 1, NETHER_BRICKS x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Condenser Part",
+    "id": "FN_MACHINERY_CONDENSER_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[PISTON x 1, Component Part x 1, PISTON x 1, Compressor Part x 1, Gear Part x 1, Compressor Part x 1, Copper Wire x 1, Component Part x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Recycler Part",
+    "id": "FN_MACHINERY_RECYCLER_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[PISTON x 1, Component Part x 1, PISTON x 1, Compressor Part x 1, Gear Part x 1, Compressor Part x 1, Condenser Part x 1, Component Part x 1, Condenser Part x 1]"
+  },
+  {
+    "item": "Downgrader Part",
+    "id": "FN_MACHINERY_DOWNGRADER_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[PISTON x 1, Thread Part x 1, PISTON x 1, Recycler Part x 1, Gear Part x 1, Recycler Part x 1, Condenser Part x 1, Compressor Part x 1, Condenser Part x 1]"
+  },
+  {
+    "item": "Funnel Part",
+    "id": "FN_MACHINERY_FUNNEL_PART",
+    "lore": "[Essential Part for FN Machinery, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Lead Ingot x 1, CALCITE x 1, Lead Ingot x 1, Thread Part x 1, BARREL x 1, Thread Part x 1, Copper Wire x 1, CALCITE x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Power Component",
+    "id": "FN_MACHINERY_POWER_COMPONENT",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Electric Motor x 1, COPPER_INGOT x 1, Electric Motor x 1, COPPER_INGOT x 1, Power Crystal x 1, COPPER_INGOT x 1, Copper Wire x 1, LIGHTNING_ROD x 1, Copper Wire x 1]"
+  },
+  {
+    "item": "Brass Plating",
+    "id": "FN_MACHINERY_BRASS_PLATING",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[COPPER_INGOT x 1, AMETHYST_SHARD x 1, COPPER_INGOT x 1, Brass Ingot x 1, COPPER_BLOCK x 1, Brass Ingot x 1, Bronze Ingot x 1, AMETHYST_SHARD x 1, Bronze Ingot x 1]"
+  },
+  {
+    "item": "Reinforced Casing",
+    "id": "FN_MACHINERY_REINFORCED_CASING",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Reinforced Plate x 1, COPPER_INGOT x 1, Reinforced Plate x 1, Reinforced Alloy Ingot x 1, IRON_BLOCK x 1, Brass Ingot x 1, Bronze Ingot x 1, COPPER_INGOT x 1, Bronze Ingot x 1]"
+  },
+  {
+    "item": "Diamond Plating",
+    "id": "FN_MACHINERY_DIAMOND_PLATING",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Cobalt Ingot x 1, AMETHYST_CLUSTER x 1, Cobalt Ingot x 1, DIAMOND x 1, DIAMOND_BLOCK x 1, DIAMOND x 1, Bronze Ingot x 1, AMETHYST_CLUSTER x 1, Bronze Ingot x 1]"
+  },
+  {
+    "item": "Aluminum Plating",
+    "id": "FN_MACHINERY_ALUMINUM_PLATING",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Duralumin Ingot x 1, AMETHYST_CLUSTER x 1, Duralumin Ingot x 1, Aluminum Ingot x 1, AMETHYST_CLUSTER x 1, Aluminum Ingot x 1, Bronze Ingot x 1, AMETHYST_CLUSTER x 1, Bronze Ingot x 1]"
+  },
+  {
+    "item": "Gold Plating",
+    "id": "FN_MACHINERY_GOLD_PLATING",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gold Ingot (8-Carat) x 1, GOLD_NUGGET x 1, Gold Ingot (8-Carat) x 1, Aluminum Ingot x 1, GOLD_BLOCK x 1, Aluminum Ingot x 1, Bronze Ingot x 1, GOLD_NUGGET x 1, Bronze Ingot x 1]"
+  },
+  {
+    "item": "Basic Machine Block",
+    "id": "FN_MACHINERY_BASIC_MACHINE_BLOCK",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gear Part x 1, AMETHYST_SHARD x 1, Gear Part x 1, Brass Plating x 1, Machine Part x 1, Brass Plating x 1, Component Part x 1, AMETHYST_SHARD x 1, Component Part x 1]"
+  },
+  {
+    "item": "High Tech Machine Block",
+    "id": "FN_MACHINERY_HIGHTECH_MACHINE_BLOCK",
+    "lore": "[Essential Part for FN Machinery, and Power Xpansion, , FN Machinery Items]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gear Part x 1, Basic Machine Block x 1, Gear Part x 1, Reinforced Casing x 1, Machine Part x 1, Brass Plating x 1, Component Part x 1, Basic Machine Block x 1, Component Part x 1]"
+  },
+  {
+    "item": "Metal Scrap",
+    "id": "FN_METAL_SCRAPS",
+    "lore": "[Leftover from downgrading machines, can be used to craft FN Machinery Items, , FN Machinery Items]",
+    "recipe_type": "FN Electric Machine Downgrader",
+    "category": "FN Machinery Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, empty slot, empty slot, empty slot, empty slot, empty slot, empty slot, empty slot, empty slot]"
+  },
+  {
+    "item": "Unbind Rune",
+    "id": "FN_MAGICAL_ITEMS_UNBIND_RUNE",
+    "lore": "[A magical rune from psijic time, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Blistering Ingot x 1, BLAZE_POWDER x 2, Blistering Ingot x 1, Magical Lump - III x 2, empty slot, Magical Lump - III x 2, Blank Rune x 1, ROTTEN_FLESH x 2, Blank Rune x 1]"
+  },
+  {
+    "item": "Spiral Fire Rune",
+    "id": "FN_MAGICAL_ITEMS_SPIRAL_FIRE_RUNE",
+    "lore": "[A heart full of fire is fire, that spirals within this rune, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Copper Ingot x 2, GUNPOWDER x 8, Blistering Ingot (33%) x 2, empty slot, Blank Rune x 1, empty slot, Copper Ingot x 2, FLINT_AND_STEEL x 1, Blistering Ingot (33%) x 2]"
+  },
+  {
+    "item": "Spirit Rune",
+    "id": "FN_MAGICAL_ITEMS_SPIRIT_RUNE",
+    "lore": "[Spirit thy come for, I redeem thy soul, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Blank Rune x 2, ROTTEN_FLESH x 2, Blank Rune x 2, BLAZE_POWDER x 1, Magic Sugar x 1, BLAZE_POWDER x 1, Blank Rune x 2, WITHER_SKELETON_SKULL x 4, Blank Rune x 2]"
+  },
+  {
+    "item": "Pestilence Rune",
+    "id": "FN_MAGICAL_ITEMS_PESTILENCE_RUNE",
+    "lore": "[A rune from the black death, period that holds a deadly sin, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Uranium x 2, NETHER_WART x 6, Uranium x 2, ROTTEN_FLESH x 4, Blank Rune x 1, ROTTEN_FLESH x 4, Uranium x 2, QUARTZ x 3, Uranium x 2]"
+  },
+  {
+    "item": "Sparkling Rune",
+    "id": "FN_MAGICAL_ITEMS_SPARKLING_RUNE",
+    "lore": "[Too bright and too flashy, for this rune is too deadly, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Silver Ingot x 3, empty slot, Silver Ingot x 3, BLAZE_ROD x 2, Blank Rune x 1, BLAZE_ROD x 2, Silver Ingot x 3, empty slot, Silver Ingot x 3]"
+  },
+  {
+    "item": "Cloud Rune",
+    "id": "FN_MAGICAL_ITEMS_CLOUD_RUNE",
+    "lore": "[Up in the skies is where, the clouds lies, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - I x 2, BLAZE_POWDER x 3, Magical Lump - I x 2, Magical Lump - I x 2, Ancient Rune [Air] x 1, Magical Lump - I x 2, Magnesium x 4, Magic Sugar x 1, Magnesium x 4]"
+  },
+  {
+    "item": "Ice Rune",
+    "id": "FN_MAGICAL_ITEMS_ICE_RUNE",
+    "lore": "[The rune full of chill, but can you stay still, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[ICE x 4, empty slot, ICE x 4, Magical Lump - III x 2, Blank Rune x 1, Magical Lump - III x 2, ICE x 4, empty slot, ICE x 4]"
+  },
+  {
+    "item": "Power Rune",
+    "id": "FN_MAGICAL_ITEMS_POWER_RUNE",
+    "lore": "[The power from this rune, can do dangerous things, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[REDSTONE x 6, Blistering Ingot x 1, REDSTONE x 6, Blistering Ingot x 1, Blank Rune x 1, Blistering Ingot x 1, NETHER_STAR x 2, Blistering Ingot x 1, NETHER_STAR x 2]"
+  },
+  {
+    "item": "Linger Rune",
+    "id": "FN_MAGICAL_ITEMS_LINGER_RUNE",
+    "lore": "[It lingers from top to, bottom and soon the middle, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[NETHER_WART x 6, Tin Dust x 1, NETHER_WART x 6, GLOWSTONE_DUST x 5, Blank Rune x 1, GLOWSTONE_DUST x 5, FERMENTED_SPIDER_EYE x 1, Zinc Dust x 1, FERMENTED_SPIDER_EYE x 1]"
+  },
+  {
+    "item": "Agility Rune",
+    "id": "FN_MAGICAL_ITEMS_AGILITY_RUNE",
+    "lore": "[Faster means better but, does it matter, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[SUGAR x 4, Pork Jerky x 1, SUGAR x 4, NETHER_WART x 4, Blank Rune x 1, NETHER_WART x 4, SUGAR x 4, Beef Jerky x 1, SUGAR x 4]"
+  },
+  {
+    "item": "Intellect Rune",
+    "id": "FN_MAGICAL_ITEMS_INTELLECT_RUNE",
+    "lore": "[Very useful rune in the, time of desperation, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[BLAZE_POWDER x 5, empty slot, BLAZE_POWDER x 5, Magic Sugar x 1, Blank Rune x 1, Magic Sugar x 1, SUGAR x 5, empty slot, SUGAR x 5]"
+  },
+  {
+    "item": "Heart Rune",
+    "id": "FN_MAGICAL_ITEMS_HEART_RUNE",
+    "lore": "[Rejuvenate through this rune, as you sense the aura inside, , FN Magical Items]",
+    "recipe_type": "FN Magic Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, NETHER_WART x 3, empty slot, Magic Sugar x 1, Blank Rune x 1, Magic Sugar x 1, GLISTERING_MELON_SLICE x 2, NETHER_WART x 3, GLISTERING_MELON_SLICE x 2]"
+  },
+  {
+    "item": "Fine Jasper Gemstone",
+    "id": "FN_GEM_FINE_JASPER_CRAFTING",
+    "lore": "[, A shiny gem needed for upgrading, those fn gems that you've been using, since then]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Magical Items",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, DIAMOND_ORE x 3, Power Rune x 1, empty slot, EMERALD_ORE x 2, empty slot, Intellect Rune x 1, GOLD_ORE x 3, Intellect Rune x 1]"
+  },
+  {
+    "item": "Component Part",
+    "id": "FN_MACHINERY_COMPONENT_PART_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, empty slot, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1]"
+  },
+  {
+    "item": "Gear Part",
+    "id": "FN_MACHINERY_GEAR_PART_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1]"
+  },
+  {
+    "item": "Machine Part",
+    "id": "FN_MACHINERY_MACHINE_PART_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1]"
+  },
+  {
+    "item": "Motor Switch",
+    "id": "FN_MACHINERY_MOTOR_SWITCH_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1]"
+  },
+  {
+    "item": "Thread Part",
+    "id": "FN_MACHINERY_THREAD_PART_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1]"
+  },
+  {
+    "item": "Power Component",
+    "id": "FN_MACHINERY_POWER_COMPONENT_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1]"
+  },
+  {
+    "item": "Funnel Part",
+    "id": "FN_MACHINERY_FUNNEL_PART_SCRAP",
+    "lore": "[Craft using metal scraps]",
+    "recipe_type": "FN Scrap Recycler",
+    "category": "Metal Scrap Recipes",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Metal Scrap x 1, Metal Scrap x 1, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1, empty slot, Metal Scrap x 1]"
+  },
+  {
+    "item": "Generator multiblock",
+    "id": "FMG_GENERATOR_MULTIBLOCK",
+    "lore": "[, Build any of this addon's, generators like this., They will only output to a chest placed above, the actual generators.]",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, empty slot, empty slot, empty slot, CHEST x 1, empty slot, empty slot, Any FN Material generator x 1, empty slot]"
+  },
+  {
+    "item": "FN Clay Generator (Broken)",
+    "id": "FMG_GENERATOR_CLAY_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Carbon x 1, DIAMOND_PICKAXE x 1, Carbon x 1, BOWL x 1, WATER_BUCKET x 1, BOWL x 1, Carbon x 1, Gold Pan x 1, Carbon x 1]"
+  },
+  {
+    "item": "FN Clay Generator",
+    "id": "FMG_GENERATOR_CLAY",
+    "lore": "[Generates clay at a certain rate, Right click the block for info, , Tickrate: 32 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gold Pan x 1, CLAY x 1, Gold Pan x 1, Gravel generator x 1, FN Clay Generator (Broken) x 1, Gravel generator x 1, DIAMOND_PICKAXE x 1, FURNACE x 1, DIAMOND_PICKAXE x 1]"
+  },
+  {
+    "item": "FN Warped Nylium Generator (Broken)",
+    "id": "FMG_GENERATOR_WARPED_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Carbonado x 1, DIAMOND_SHOVEL x 1, Carbonado x 1, NETHERITE_PICKAXE x 1, WATER_BUCKET x 1, NETHERITE_PICKAXE x 1, Carbonado x 1, Nether Gold Pan x 1, Carbonado x 1]"
+  },
+  {
+    "item": "FN Warped Nylium Generator",
+    "id": "FMG_GENERATOR_WARPED",
+    "lore": "[Generates warped nylium at a certain rate, Right click the block for info, , Tickrate: 48 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[NETHERITE_SHOVEL x 1, WARPED_NYLIUM x 1, NETHERITE_SHOVEL x 1, Netherrack generator x 1, FN Warped Nylium Generator (Broken) x 1, Netherrack generator x 1, NETHERITE_SHOVEL x 1, BLAST_FURNACE x 1, NETHERITE_SHOVEL x 1]"
+  },
+  {
+    "item": "FN Terracotta Generator (Broken)",
+    "id": "FMG_GENERATOR_TERRACOTTA_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Ferrosilicon x 1, DIAMOND_PICKAXE x 1, Ferrosilicon x 1, DIAMOND_SHOVEL x 1, BUCKET x 1, DIAMOND_SHOVEL x 1, Ferrosilicon x 1, COAL x 1, Ferrosilicon x 1]"
+  },
+  {
+    "item": "FN Terracotta Generator",
+    "id": "FMG_GENERATOR_TERRACOTTA",
+    "lore": "[Generates terracotta at a certain rate, Right click the block for info, , Tickrate: 84 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Cobblestone generator x 1, Gravel generator x 1, Cobblestone generator x 1, FN Clay Generator x 1, FN Terracotta Generator (Broken) x 1, FN Clay Generator x 1, Cobblestone generator x 1, BLAST_FURNACE x 1, Cobblestone generator x 1]"
+  },
+  {
+    "item": "FN Bone Generator (Broken)",
+    "id": "FMG_GENERATOR_BONE_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[BONE_MEAL x 1, DIAMOND_SWORD x 1, BONE_MEAL x 1, BONE_BLOCK x 1, WATER_BUCKET x 1, BONE_BLOCK x 1, Blistering Ingot (66%) x 1, COAL x 1, Blistering Ingot (66%) x 1]"
+  },
+  {
+    "item": "FN Bone Generator",
+    "id": "FMG_GENERATOR_BONE",
+    "lore": "[Generates bone at a certain rate, Right click the block for info, , Tickrate: 256 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Blistering Ingot x 1, Soul sand generator x 1, Blistering Ingot x 1, BONE x 1, FN Bone Generator (Broken) x 1, BONE x 1, Programmable Android (Normal) x 1, BLAST_FURNACE x 1, Programmable Android (Normal) x 1]"
+  },
+  {
+    "item": "FN Diamond Generator (Broken)",
+    "id": "FMG_GENERATOR_DIAMOND_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Synthetic Diamond x 1, Cobblestone generator x 1, Synthetic Diamond x 1, DIAMOND_BLOCK x 1, WATER_BUCKET x 1, DIAMOND_BLOCK x 1, Synthetic Diamond x 1, DIAMOND_PICKAXE x 1, Synthetic Diamond x 1]"
+  },
+  {
+    "item": "FN Diamond Generator",
+    "id": "FMG_GENERATOR_DIAMOND",
+    "lore": "[Generates diamond at a certain rate, Right click the block for info, , Tickrate: 192 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Programmable Android (Miner) x 1, DIAMOND x 1, Programmable Android (Miner) x 1, DIAMOND x 1, FN Diamond Generator (Broken) x 1, DIAMOND x 1, Programmable Android (Normal) x 1, BLAST_FURNACE x 1, Programmable Android (Normal) x 1]"
+  },
+  {
+    "item": "FN Emerald Generator (Broken)",
+    "id": "FMG_GENERATOR_EMERALD_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[EMERALD x 1, EMERALD_ORE x 1, EMERALD x 1, EMERALD_BLOCK x 1, WATER_BUCKET x 1, EMERALD_BLOCK x 1, Synthetic Emerald x 1, DIAMOND_PICKAXE x 1, Synthetic Emerald x 1]"
+  },
+  {
+    "item": "FN Emerald Generator",
+    "id": "FMG_GENERATOR_EMERALD",
+    "lore": "[Generates emerald at a certain rate, Right click the block for info, , Tickrate: 218 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Programmable Android (Miner) x 1, EMERALD x 1, Programmable Android (Miner) x 1, EMERALD x 1, FN Emerald Generator (Broken) x 1, EMERALD x 1, Programmable Android (Normal) x 1, BLAST_FURNACE x 1, Programmable Android (Normal) x 1]"
+  },
+  {
+    "item": "FN Dirt Generator (Broken)",
+    "id": "FMG_GENERATOR_DIRT_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[DIRT x 1, DIAMOND_SHOVEL x 1, DIRT x 1, DIAMOND_SHOVEL x 1, WATER_BUCKET x 1, IRON_SHOVEL x 1, Solder Ingot x 1, DIAMOND_PICKAXE x 1, Solder Ingot x 1]"
+  },
+  {
+    "item": "FN Dirt Generator",
+    "id": "FMG_GENERATOR_DIRT",
+    "lore": "[Generates dirt at a certain rate, Right click the block for info, , Tickrate: 12 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[GOLDEN_SHOVEL x 1, DIRT x 1, GOLDEN_SHOVEL x 1, DIRT x 1, FN Dirt Generator (Broken) x 1, DIRT x 1, Magnesium Ingot x 1, BLAST_FURNACE x 1, Magnesium Ingot x 1]"
+  },
+  {
+    "item": "FN Honey Comb Generator (Broken)",
+    "id": "FMG_GENERATOR_HONEYCOMB_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[HONEYCOMB x 1, HONEY_BOTTLE x 1, HONEYCOMB x 1, DIAMOND_SHOVEL x 1, WATER_BUCKET x 1, IRON_SHOVEL x 1, Reinforced Plate x 1, HONEY_BLOCK x 1, Reinforced Plate x 1]"
+  },
+  {
+    "item": "FN Honey Comb Generator",
+    "id": "FMG_GENERATOR_HONEYCOMB",
+    "lore": "[Generates honey comb at a certain rate, Right click the block for info, , Tickrate: 48 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[HONEYCOMB_BLOCK x 1, FN Dirt Generator x 1, HONEYCOMB_BLOCK x 1, HONEYCOMB x 1, FN Honey Comb Generator (Broken) x 1, HONEYCOMB x 1, Reinforced Alloy Ingot x 1, BLAST_FURNACE x 1, Reinforced Alloy Ingot x 1]"
+  },
+  {
+    "item": "FN Quartz Generator (Broken)",
+    "id": "FMG_GENERATOR_QUARTZ_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[NETHERRACK x 1, GOLDEN_SHOVEL x 1, NETHERRACK x 1, IRON_SHOVEL x 1, QUARTZ_BLOCK x 1, IRON_SHOVEL x 1, Steel Plate x 1, NETHERRACK x 1, Steel Plate x 1]"
+  },
+  {
+    "item": "FN Quartz Generator",
+    "id": "FMG_GENERATOR_QUARTZ",
+    "lore": "[Generates quartz at a certain rate, Right click the block for info, , Tickrate: 28 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[IRON_PICKAXE x 1, IRON_PICKAXE x 1, IRON_PICKAXE x 1, QUARTZ x 1, FN Quartz Generator (Broken) x 1, QUARTZ x 1, Cobblestone generator x 1, BLAST_FURNACE x 1, Cobblestone generator x 1]"
+  },
+  {
+    "item": "FN Amethyst Cluster Generator (Broken)",
+    "id": "FMG_GENERATOR_AMETHYST_BROKEN",
+    "lore": "[Needs to be repaired, , FN Material Generators]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[FN Quartz Generator x 1, NETHERITE_PICKAXE x 1, FN Quartz Generator x 1, NETHERITE_PICKAXE x 1, AMETHYST_BLOCK x 1, NETHERITE_PICKAXE x 1, Reinforced Casing x 1, Netherrack generator x 1, Reinforced Casing x 1]"
+  },
+  {
+    "item": "FN Amethyst Cluster Generator",
+    "id": "FMG_GENERATOR_AMETHYST",
+    "lore": "[Generates amethyst cluster at a certain rate, Right click the block for info, , Tickrate: 160 ticks, , Warning:, Breaking the block will drop, the broken type, , FN Material Generators]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Material Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[DIAMOND_PICKAXE x 1, Reinforced Alloy Ingot x 1, DIAMOND_PICKAXE x 1, AMETHYST_CLUSTER x 1, FN Amethyst Cluster Generator (Broken) x 1, AMETHYST_CLUSTER x 1, AMETHYST_BLOCK x 1, BLAST_FURNACE x 1, AMETHYST_BLOCK x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R1",
+    "id": "FN_POWER_XPANSION_POWER_R1",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 100,000 J Buffer, ? ? 236 J/t (Day Rate), ? ? 138 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, Tin Ingot x 3, Power Component x 1, Basic Machine Block x 1, Energized Solar Generator x 1, Basic Machine Block x 1, Basic Circuit Board x 1, Aluminum Plating x 1, Basic Circuit Board x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R2",
+    "id": "FN_POWER_XPANSION_POWER_R2",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 200,000 J Buffer, ? ? 472 J/t (Day Rate), ? ? 276 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R1 x 1, Power Component x 1, Basic Machine Block x 1, Solder Ingot x 6, Basic Machine Block x 1, Basic Circuit Board x 1, Aluminum Plating x 1, Basic Circuit Board x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R3",
+    "id": "FN_POWER_XPANSION_POWER_R3",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 300,000 J Buffer, ? ? 944 J/t (Day Rate), ? ? 552 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R2 x 1, Power Component x 1, Basic Machine Block x 1, Bronze Ingot x 9, Basic Machine Block x 1, Basic Circuit Board x 1, Aluminum Plating x 1, Basic Circuit Board x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R4",
+    "id": "FN_POWER_XPANSION_POWER_R4",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 400,000 J Buffer, ? ? 1,888 J/t (Day Rate), ? ? 1,104 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R3 x 1, Power Component x 1, Basic Machine Block x 1, Duralumin Ingot x 12, Basic Machine Block x 1, Advanced Circuit Board x 1, Gold Plating x 1, Advanced Circuit Board x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R5",
+    "id": "FN_POWER_XPANSION_POWER_R5",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 500,000 J Buffer, ? ? 3,064 J/t (Day Rate), ? ? 1,784 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R4 x 1, Power Component x 1, High Tech Machine Block x 1, Aluminum Brass Ingot x 15, High Tech Machine Block x 1, FN Solar Generator Tier I x 1, Gold Plating x 1, Advanced Circuit Board x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R6",
+    "id": "FN_POWER_XPANSION_POWER_R6",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 600,000 J Buffer, ? ? 5,224 J/t (Day Rate), ? ? 3,128 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R5 x 1, Gear Part x 1, High Tech Machine Block x 1, Corinthian Bronze Ingot x 18, High Tech Machine Block x 1, FN Solar Generator Tier II x 1, Gold Plating x 1, Reinforced Alloy Ingot x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R7",
+    "id": "FN_POWER_XPANSION_POWER_R7",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 700,000 J Buffer, ? ? 7,128 J/t (Day Rate), ? ? 5,142 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R6 x 1, Gear Part x 1, High Tech Machine Block x 1, Steel Ingot x 21, High Tech Machine Block x 1, FN Solar Generator Tier III x 1, Brass Plating x 1, Blistering Ingot (33%) x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R8",
+    "id": "FN_POWER_XPANSION_POWER_R8",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 800,000 J Buffer, ? ? 9,420 J/t (Day Rate), ? ? 6,752 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R7 x 1, Gear Part x 1, High Tech Machine Block x 1, Damascus Steel Ingot x 24, High Tech Machine Block x 1, Blistering Ingot (66%) x 1, FN Solar Generator Tier IV x 1, Blistering Ingot (66%) x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R9",
+    "id": "FN_POWER_XPANSION_POWER_R9",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 900,000 J Buffer, ? ? 11,384 J/t (Day Rate), ? ? 7,431 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R8 x 1, Gear Part x 1, High Tech Machine Block x 1, Hardened Metal x 27, High Tech Machine Block x 1, Reinforced Alloy Ingot x 1, FN Solar Generator Tier V x 1, Reinforced Alloy Ingot x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R10",
+    "id": "FN_POWER_XPANSION_POWER_R10",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 1,000,000 J Buffer, ? ? 13,692 J/t (Day Rate), ? ? 8,128 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R9 x 1, Gear Part x 1, Energized Energy Capacitor x 1, Hardened Metal x 32, Energized Energy Capacitor x 1, Uranium x 1, FN Solar Generator Tier VI x 1, Uranium x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R11",
+    "id": "FN_POWER_XPANSION_POWER_R11",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 1,500,000 J Buffer, ? ? 15,984 J/t (Day Rate), ? ? 9,462 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R10 x 1, Gear Part x 1, Energized Energy Capacitor x 1, Reinforced Alloy Ingot x 36, Energized Energy Capacitor x 1, Neptunium x 1, FN Solar Generator Tier VII x 1, Neptunium x 1]"
+  },
+  {
+    "item": "FN Power Xpansion R12",
+    "id": "FN_POWER_XPANSION_POWER_R12",
+    "lore": "[This works at Night!, Place and right click, the block for power info, , ? ? 2,000,000 J Buffer, ? ? 17,421 J/t (Day Rate), ? ? 10,128 J/t (Night Rate)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Power Xpansion",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Component x 1, FN Power Xpansion R11 x 1, Gear Part x 1, Energized Energy Capacitor x 1, Reinforced Alloy Ingot x 40, Energized Energy Capacitor x 1, Reinforced Casing x 1, FN Power Xpansion R5 x 1, Boosted Uranium x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier I",
+    "id": "FN_FAL_GENERATOR_TIER1",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 4096 J Buffer, ? ? 256 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Advanced Solar Generator x 1, Solar Generator x 1, Advanced Solar Generator x 1, Big Energy Capacitor x 1, Power Crystal x 1, Big Energy Capacitor x 1, Advanced Solar Generator x 1, Carbonado Solar Generator x 1, Advanced Solar Generator x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier II",
+    "id": "FN_FAL_GENERATOR_TIER2",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 6144 J Buffer, ? ? 512 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Medium Energy Capacitor x 1, FN Solar Generator Tier I x 1, Medium Energy Capacitor x 1, Big Energy Capacitor x 1, Power Crystal x 1, Big Energy Capacitor x 1, Big Energy Capacitor x 1, FN Solar Generator Tier I x 1, Big Energy Capacitor x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier III",
+    "id": "FN_FAL_GENERATOR_TIER3",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 8192 J Buffer, ? ? 768 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Big Energy Capacitor x 1, FN Solar Generator Tier I x 1, Big Energy Capacitor x 1, FN Solar Generator Tier I x 1, Power Crystal x 1, FN Solar Generator Tier I x 1, Big Energy Capacitor x 1, Big Energy Capacitor x 1, Big Energy Capacitor x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier IV",
+    "id": "FN_FAL_GENERATOR_TIER4",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 10240 J Buffer, ? ? 1024 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Advanced Solar Generator x 1, FN Solar Generator Tier III x 1, Advanced Solar Generator x 1, Duralumin Ingot x 1, Power Crystal x 1, Duralumin Ingot x 1, Big Energy Capacitor x 1, Large Energy Capacitor x 1, Big Energy Capacitor x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier V",
+    "id": "FN_FAL_GENERATOR_TIER5",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 12288 J Buffer, ? ? 1282 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Big Energy Capacitor x 1, Big Energy Capacitor x 1, Big Energy Capacitor x 1, FN Solar Generator Tier I x 1, FN Solar Generator Tier II x 1, FN Solar Generator Tier I x 1, Steel Ingot x 1, Large Energy Capacitor x 1, Steel Ingot x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier VI",
+    "id": "FN_FAL_GENERATOR_TIER6",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 14336 J Buffer, ? ? 1538 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Steel Ingot x 1, Large Energy Capacitor x 1, Steel Ingot x 1, Damascus Steel Ingot x 1, Power Crystal x 1, Damascus Steel Ingot x 1, FN Solar Generator Tier II x 1, FN Solar Generator Tier III x 1, FN Solar Generator Tier II x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier VII",
+    "id": "FN_FAL_GENERATOR_TIER7",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 16384 J Buffer, ? ? 1794 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Hardened Metal x 1, FN Solar Generator Tier V x 1, Hardened Metal x 1, Large Energy Capacitor x 1, Power Crystal x 1, Large Energy Capacitor x 1, Damascus Steel Ingot x 1, FN Solar Generator Tier I x 1, Damascus Steel Ingot x 1]"
+  },
+  {
+    "item": "FN Solar Generator Tier VIII",
+    "id": "FN_FAL_GENERATOR_TIER8",
+    "lore": "[, A solar generator for those who, needs power during day only, , End-Game Generator, ? ? 20480 J Buffer, ? ? 2048 J/s]",
+    "recipe_type": "Enhanced Crafting Table",
+    "category": "FN Solar Generators",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Big Energy Capacitor x 1, FN Solar Generator Tier VI x 1, Big Energy Capacitor x 1, Reinforced Alloy Ingot x 1, Power Crystal x 1, Reinforced Alloy Ingot x 1, Large Energy Capacitor x 1, FN Solar Generator Tier I x 1, Large Energy Capacitor x 1]"
+  },
+  {
+    "item": "Electric Block Breaker I",
+    "id": "FN_BLOCK_BREAKER_I",
+    "lore": "[, Place block in front, of the dispenser to break, (Vanilla), , Rate: 12 ticks, , FN Machinery, Average Machine, ? ? 512 J Buffer, ? ? 32 J/t]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gear Part x 1, Component Part x 1, Gear Part x 1, DIAMOND_PICKAXE x 1, Basic Machine Block x 1, IRON_PICKAXE x 1, Aluminum Plating x 1, Power Component x 1, Aluminum Plating x 1]"
+  },
+  {
+    "item": "Electric Block Breaker II",
+    "id": "FN_BLOCK_BREAKER_II",
+    "lore": "[, Place block in front, of the dispenser to break, (Vanilla), , Rate: 6 ticks, , FN Machinery, Advanced Machine, ? ? 1024 J Buffer, ? ? 64 J/t]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gear Part x 2, Component Part x 1, Gear Part x 2, Electric Block Breaker I x 1, Basic Machine Block x 2, DIAMOND_PICKAXE x 1, Brass Plating x 1, Power Component x 2, Brass Plating x 1]"
+  },
+  {
+    "item": "Electric Block Breaker III",
+    "id": "FN_BLOCK_BREAKER_III",
+    "lore": "[, Place block in front, of the dispenser to break, (Vanilla), , Rate: 2 ticks, , FN Machinery, End-Game Machine, ? ? 2048 J Buffer, ? ? 128 J/t]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gear Part x 3, Component Part x 1, Gear Part x 3, Electric Block Breaker I x 1, High Tech Machine Block x 1, Electric Block Breaker II x 1, Reinforced Casing x 1, Power Component x 2, Reinforced Casing x 1]"
+  },
+  {
+    "item": "FN Electric Compressor I",
+    "id": "FN_FAL_COMPRESSOR_1",
+    "lore": "[, A machinery that can compress, items to form a biological item, , FN Machinery, End-Game Machine, ? ? Speed: 1.0x, ? ? 128 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Compressor Part x 1, Thread Part x 1, Motor Switch x 1, Gear Part x 1, Basic Machine Block x 1, Gear Part x 1, Condenser Part x 1, Aluminum Plating x 1, Power Component x 1]"
+  },
+  {
+    "item": "FN Electric Compressor II",
+    "id": "FN_FAL_COMPRESSOR_2",
+    "lore": "[, A machinery that can compress, items to form a biological item, , FN Machinery, End-Game Machine, ? ? Speed: 2.0x, ? ? 256 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Compressor Part x 2, Thread Part x 2, Motor Switch x 1, Gear Part x 4, Basic Machine Block x 1, FN Electric Compressor I x 1, Condenser Part x 1, Diamond Plating x 1, Power Component x 1]"
+  },
+  {
+    "item": "FN Electric Compressor III",
+    "id": "FN_FAL_COMPRESSOR_3",
+    "lore": "[, A machinery that can compress, items to form a biological item, , FN Machinery, End-Game Machine, ? ? Speed: 4.0x, ? ? 512 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Compressor Part x 3, Component Part x 2, Motor Switch x 1, FN Electric Compressor II x 1, High Tech Machine Block x 1, FN Electric Compressor II x 1, Condenser Part x 1, Reinforced Casing x 1, Power Component x 1]"
+  },
+  {
+    "item": "FN Electric Ingot Condenser I",
+    "id": "FN_FAL_CONDENSER_1",
+    "lore": "[, A machinery that can condense two, ingots or items to one biological ingot, , FN Machinery, End-Game Machine, ? ? Speed: 1.0x, ? ? 256 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Motor Switch x 1, Thread Part x 1, Funnel Part x 1, Gear Part x 1, Basic Machine Block x 1, Power Component x 1, Compressor Part x 1, Gold Plating x 1, Compressor Part x 1]"
+  },
+  {
+    "item": "FN Electric Ingot Condenser II",
+    "id": "FN_FAL_CONDENSER_2",
+    "lore": "[, A machinery that can condense two, ingots or items to one biological ingot, , FN Machinery, End-Game Machine, ? ? Speed: 2.0x, ? ? 384 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Motor Switch x 1, FN Electric Ingot Condenser I x 1, Funnel Part x 1, Gear Part x 2, Basic Machine Block x 1, Power Component x 2, Thread Part x 1, Diamond Plating x 1, Component Part x 1]"
+  },
+  {
+    "item": "FN Electric Ingot Condenser III",
+    "id": "FN_FAL_CONDENSER_3",
+    "lore": "[, A machinery that can condense two, ingots or items to one biological ingot, , FN Machinery, End-Game Machine, ? ? Speed: 4.0x, ? ? 768 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[FN Electric Ingot Condenser I x 1, FN Electric Ingot Condenser I x 1, FN Electric Ingot Condenser I x 1, Gear Part x 3, High Tech Machine Block x 1, Power Component x 3, Thread Part x 1, Reinforced Casing x 1, Component Part x 1]"
+  },
+  {
+    "item": "FN Electric Machine Downgrader",
+    "id": "FN_FAL_DOWNGRADER",
+    "lore": "[, A machinery that can downgrade SF, machines, great machine for mistakenly, crafted machines or want to downgrade, extra machines, , - Machine gui must be opened in order,   for scraps to drop by chance, - 25% chance to get 1 scrap/downgrade, , FN Machinery, End-Game Machine, ? ? Speed: 4.0x, ? ? 1500 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Compressor Part x 1, Downgrader Part x 1, Recycler Part x 1, Gear Part x 2, High Tech Machine Block x 1, Power Component x 2, Condenser Part x 1, Reinforced Casing x 1, Motor Switch x 1]"
+  },
+  {
+    "item": "FN Electric Recycler I",
+    "id": "FN_FAL_RECYCLER_1",
+    "lore": "[, A machinery that can recycle, items to that of in lower form, , FN Machinery, End-Game Machine, ? ? Speed: 1.0x, ? ? 168 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Funnel Part x 1, Recycler Part x 1, Compressor Part x 1, Thread Part x 1, Basic Machine Block x 1, Power Component x 1, Condenser Part x 1, Brass Plating x 1, Motor Switch x 1]"
+  },
+  {
+    "item": "FN Electric Recycler II",
+    "id": "FN_FAL_RECYCLER_2",
+    "lore": "[, A machinery that can recycle, items to that of in lower form, , FN Machinery, End-Game Machine, ? ? Speed: 2.0x, ? ? 336 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Funnel Part x 2, Recycler Part x 1, Compressor Part x 1, Thread Part x 1, Basic Machine Block x 1, Power Component x 2, FN Electric Recycler I x 1, Aluminum Plating x 1, Motor Switch x 1]"
+  },
+  {
+    "item": "FN Electric Recycler III",
+    "id": "FN_FAL_RECYCLER_3",
+    "lore": "[, A machinery that can recycle, items to that of in lower form, , FN Machinery, End-Game Machine, ? ? Speed: 2.0x, ? ? 672 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Recycler Part x 3, FN Electric Recycler I x 1, Compressor Part x 1, Gear Part x 1, High Tech Machine Block x 1, Power Component x 3, FN Electric Recycler I x 1, Reinforced Casing x 1, FN Electric Recycler I x 1]"
+  },
+  {
+    "item": "FN Electric Transformer I",
+    "id": "FN_FAL_TRANSFORMER_1",
+    "lore": "[, A machinery that can transform, various items to other forms, , FN Machinery, End-Game Machine, ? ? Speed: 1.0x, ? ? 256 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Funnel Part x 1, Thread Part x 1, Power Component x 1, Gear Part x 1, Basic Machine Block x 1, Gear Part x 1, Compressor Part x 1, Brass Plating x 1, Condenser Part x 1]"
+  },
+  {
+    "item": "FN Electric Transformer II",
+    "id": "FN_FAL_TRANSFORMER_2",
+    "lore": "[, A machinery that can transform, various items to other forms, , FN Machinery, End-Game Machine, ? ? Speed: 2.0x, ? ? 384 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Funnel Part x 1, FN Electric Transformer I x 1, Power Component x 1, Gear Part x 2, Basic Machine Block x 1, Gear Part x 2, Thread Part x 1, Aluminum Plating x 1, Condenser Part x 1]"
+  },
+  {
+    "item": "FN Electric Transformer III",
+    "id": "FN_FAL_TRANSFORMER_3",
+    "lore": "[, A machinery that can transform, various items to other forms, , FN Machinery, End-Game Machine, ? ? Speed: 4.0x, ? ? 768 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Funnel Part x 2, FN Electric Transformer II x 1, Power Component x 1, FN Electric Transformer I x 1, High Tech Machine Block x 1, FN Electric Transformer I x 1, Component Part x 1, Reinforced Casing x 1, Condenser Part x 2]"
+  },
+  {
+    "item": "FN Jukebox I",
+    "id": "FN_JUKEBOX_I",
+    "lore": "[, A jukebox that can store and play, music disc, it can loop through, entire disc slots and autoplay, a new disc after one has finished, , Slot amount: 3 music disc slots, , ? ? 512 J Buffer, ? ? 3 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Basic Machine Block x 1, Brass Plating x 1, Basic Machine Block x 1, Copper Ingot x 1, JUKEBOX x 1, Copper Ingot x 1, Component Part x 1, Brass Plating x 1, Component Part x 1]"
+  },
+  {
+    "item": "FN Jukebox II",
+    "id": "FN_JUKEBOX_II",
+    "lore": "[, A jukebox that can store and play, music disc, it can loop through, entire disc slots and autoplay, a new disc after one has finished, , Slot amount: 7 music disc slots, , ? ? 768 J Buffer, ? ? 8 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Aluminum Plating x 1, Basic Machine Block x 1, Aluminum Plating x 1, Aluminum Ingot x 1, FN Jukebox I x 1, Aluminum Ingot x 1, Component Part x 1, Component Part x 1, Component Part x 1]"
+  },
+  {
+    "item": "FN Jukebox III",
+    "id": "FN_JUKEBOX_III",
+    "lore": "[, A jukebox that can store and play, music disc, it can loop through, entire disc slots and autoplay, a new disc after one has finished, , Slot amount: 12 music disc slots, , ? ? 1024 J Buffer, ? ? 16 J/s]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Machinery",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Basic Machine Block x 1, Component Part x 1, Basic Machine Block x 1, Brass Ingot x 1, FN Jukebox II x 1, Brass Ingot x 1, Component Part x 1, Reinforced Casing x 1, Component Part x 1]"
+  },
+  {
+    "item": "Mysterious Stick",
+    "id": "FN_MYSTERY_STICK_1",
+    "lore": "[I wonder what this stick does]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Magical Lump - I x 8, Ender Lump - I x 6, Ender Lump - I x 8, Blank Rune x 1, STICK x 1, Blank Rune x 1, Magical Lump - I x 8, Magical Lump - I x 6, Ender Lump - I x 8]"
+  },
+  {
+    "item": "Mysterious Stick II",
+    "id": "FN_MYSTERY_STICK_2",
+    "lore": "[Another stick of no matter what is it]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Magical Lump - I x 8, LEATHER x 1, Ender Lump - I x 8, Blank Rune x 1, STICK x 1, Blank Rune x 1, Ender Lump - I x 8, OAK_WOOD x 2, Magical Lump - I x 8]"
+  },
+  {
+    "item": "Mysterious Stick III",
+    "id": "FN_MYSTERY_STICK_3",
+    "lore": "[I feel coordinated when holding this stick]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Blank Rune x 1, LEATHER x 1, Blank Rune x 1, Magical Lump - II x 8, STICK x 1, Magical Lump - II x 8, Ender Lump - I x 6, LEAD x 1, Ender Lump - I x 6]"
+  },
+  {
+    "item": "Mysterious Stick IV",
+    "id": "FN_MYSTERY_STICK_4",
+    "lore": "[Did I use this before or maybe not]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Essence of Afterlife x 1, Ancient Rune [Earth] x 1, Ender Lump - III x 16, Ancient Rune [Fire] x 1, Mysterious Stick x 1, Ancient Rune [Air] x 1, Ender Lump - III x 16, Ancient Rune [Ender] x 1, Essence of Afterlife x 1]"
+  },
+  {
+    "item": "Mysterious Stick V",
+    "id": "FN_MYSTERY_STICK_5",
+    "lore": "[I know you are tired of this stick thing]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Magical Lump - III x 18, Essence of Afterlife x 1, Ender Lump - II x 18, Ancient Rune [Air] x 2, Mysterious Stick II x 1, Ancient Rune [Fire] x 2, Ender Lump - III x 12, Blank Rune x 1, Magical Lump - II x 12]"
+  },
+  {
+    "item": "Mysterious Stick VI",
+    "id": "FN_MYSTERY_STICK_6",
+    "lore": "[May the force and accuracy be with you]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Essence of Afterlife x 1, Ancient Rune [Air] x 2, Essence of Afterlife x 1, Ancient Rune [Fire] x 1, Mysterious Stick III x 1, Ancient Rune [Earth] x 1, Ender Lump - III x 18, Ancient Rune [Ender] x 2, Magical Lump - III x 18]"
+  },
+  {
+    "item": "Mysterious Stick VII",
+    "id": "FN_MYSTERY_STICK_7",
+    "lore": "[The aura on this stick is mesmerizing]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Essence of Afterlife x 2, Ancient Rune [Earth] x 2, Essence of Afterlife x 2, Ancient Rune [Fire] x 3, Mysterious Stick IV x 1, Ancient Rune [Air] x 3, Ancient Rune [Lightning] x 3, Ancient Rune [Ender] x 2, Ancient Rune [Enchantment] x 3]"
+  },
+  {
+    "item": "Mysterious Stick VIII",
+    "id": "FN_MYSTERY_STICK_8",
+    "lore": "[This stick is kinda heavy]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Ancient Rune [Ender] x 3, Essence of Afterlife x 1, Ancient Rune [Fire] x 3, Essence of Afterlife x 1, Mysterious Stick V x 1, Essence of Afterlife x 1, Ancient Rune [Earth] x 3, Ancient Rune [Air] x 2, Ancient Rune [Air] x 3]"
+  },
+  {
+    "item": "Mysterious Stick IX",
+    "id": "FN_MYSTERY_STICK_9",
+    "lore": "[You need more mana when using this]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Essence of Afterlife x 1, Ancient Rune [Air] x 3, Essence of Afterlife x 1, Ancient Rune [Fire] x 2, Mysterious Stick VI x 1, Ancient Rune [Earth] x 2, Essence of Afterlife x 1, Ancient Rune [Ender] x 3, Essence of Afterlife x 1]"
+  },
+  {
+    "item": "Mysterious Stick X",
+    "id": "FN_MYSTERY_STICK_10",
+    "lore": "[Deadly or creepy stick]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Essence of Afterlife x 2, Mysterious Stick IV x 1, Ancient Rune [Enchantment] x 3, Ancient Rune [Fire] x 3, Mysterious Stick VII x 1, Ancient Rune [Air] x 3, Ancient Rune [Lightning] x 3, Mysterious Stick x 1, Essence of Afterlife x 2]"
+  },
+  {
+    "item": "Mysterious Stick XI",
+    "id": "FN_MYSTERY_STICK_11",
+    "lore": "[The stick of the nords]",
+    "recipe_type": "FN Mystery Stick Altar",
+    "category": "FN Mystery PVP/PVE Sticks",
+    "enchantable": false,
+    "disenchantable": false,
+    "recipe": "[Mysterious Stick II x 1, Essence of Afterlife x 1, Mysterious Stick VIII x 1, Essence of Afterlife x 1, Mysterious Stick V x 1, Essence of Afterlife x 1, Ancient Rune [Earth] x 4, Essence of Afterlife x 2, Ancient Rune [Air] x 4]"
+  },
+  {
+    "item": "FN's Expedition Combat Boots",
+    "id": "FN_GEAR_BOOTS",
+    "lore": "[??????| Lore |??????, , Soldiers from FN's army only wants to posses, this historical boots but it was kept, hidden under the hands of the zion people, , ??????| Stats |??????, Boots Level: 0, Progress:, [??????????]]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Gears of Friction",
+    "enchantable": true,
+    "disenchantable": false,
+    "recipe": "[Reinforced Plate x 5, IRON_BOOTS x 1, Reinforced Plate x 5, Ancient Rune [Enchantment] x 1, NETHERITE_INGOT x 2, Ancient Rune [Enchantment] x 1, Reinforced Alloy Ingot x 6, DIAMOND_BOOTS x 1, Reinforced Alloy Ingot x 6]"
+  },
+  {
+    "item": "FN's Battle Scarred Chestplate",
+    "id": "FN_GEAR_CHESTPLATE",
+    "lore": "[??????| Lore |??????, , The armor from the past brought to life, once again. It becomes more powerful during, times of war and conflict, , ??????| Stats |??????, Armor Level: 0, Progress:, [??????????]]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Gears of Friction",
+    "enchantable": true,
+    "disenchantable": false,
+    "recipe": "[Reinforced Plate x 2, IRON_CHESTPLATE x 1, Reinforced Plate x 2, Ancient Rune [Enchantment] x 1, NETHERITE_INGOT x 2, Ancient Rune [Enchantment] x 1, Reinforced Alloy Ingot x 4, DIAMOND_CHESTPLATE x 1, Reinforced Alloy Ingot x 4]"
+  },
+  {
+    "item": "FN's Field Tested Helmet",
+    "id": "FN_GEAR_HELMET",
+    "lore": "[??????| Lore |??????, , Wear this helmet in the name of FN and, every battle should make it become more, stronger with bonus attributes and enchants, , ??????| Stats |??????, Helmet Level: 0, Progress:, [??????????]]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Gears of Friction",
+    "enchantable": true,
+    "disenchantable": false,
+    "recipe": "[Reinforced Plate x 4, IRON_HELMET x 1, Reinforced Plate x 4, Ancient Rune [Enchantment] x 1, NETHERITE_INGOT x 2, Ancient Rune [Enchantment] x 1, Reinforced Alloy Ingot x 6, DIAMOND_HELMET x 1, Reinforced Alloy Ingot x 6]"
+  },
+  {
+    "item": "FN's Chausses of Eminence",
+    "id": "FN_GEAR_LEGGINGS",
+    "lore": "[??????| Lore |??????, , Glorious leggings worn by FN during war, and was glorified on every victory against, his foes, , ??????| Stats |??????, Leggings Level: 0, Progress:, [??????????]]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Gears of Friction",
+    "enchantable": true,
+    "disenchantable": false,
+    "recipe": "[Reinforced Plate x 2, IRON_LEGGINGS x 1, Reinforced Plate x 2, Ancient Rune [Enchantment] x 1, NETHERITE_INGOT x 2, Ancient Rune [Enchantment] x 1, Reinforced Alloy Ingot x 3, DIAMOND_LEGGINGS x 1, Reinforced Alloy Ingot x 3]"
+  },
+  {
+    "item": "Bow Quiver (Normal)",
+    "id": "FN_QUIVER",
+    "lore": "[, Store inside the quiver, by right clicking arrows or, shift click quiver to withdraw, , Click to change state, Size: 192 Arrows, Arrows: 0, State: Closed (No Arrows)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Tin Ingot x 5, LEAD x 3, Copper Ingot x 5, STRING x 16, STICK x 24, STRING x 16, Tin Ingot x 5, LEATHER x 16, Copper Ingot x 5]"
+  },
+  {
+    "item": "Bow Quiver (Spectral)",
+    "id": "FN_SPECTRAL_QUIVER",
+    "lore": "[, Store inside the quiver by, right clicking spectral arrows or, shift click quiver to withdraw, , Click to close/open, Size: 192 Spectral Arrows, Arrows: 0, State: Closed (No Arrows)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gold Ingot (4-Carat) x 3, LEAD x 3, Steel Ingot x 3, STRING x 24, STICK x 24, STRING x 24, Gold Ingot (4-Carat) x 3, LEATHER x 16, Steel Ingot x 3]"
+  },
+  {
+    "item": "Upgraded Bow Quiver (Normal)",
+    "id": "FN_UPGRADED_QUIVER",
+    "lore": "[, Store inside the quiver, by right clicking arrows or, shift click to withdraw, , Click to change state, Size: 288 Arrows, Arrows: 0, State: Closed (No Arrows)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Lead Ingot x 5, Bow Quiver (Normal) x 1, Bronze Ingot x 5, STRING x 32, STICK x 48, STRING x 32, Lead Ingot x 5, LEATHER x 32, Bronze Ingot x 5]"
+  },
+  {
+    "item": "Upgraded Bow Quiver (Spectral)",
+    "id": "FN_UPGRADED_SPECTRAL_QUIVER",
+    "lore": "[, Store inside the quiver, by right clicking spectral arrows or, shift click quiver to withdraw, , Click to change state, Size: 288 Arrows, Arrows: 0, State: Closed (No Arrows)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Gold Ingot (10-Carat) x 3, Bow Quiver (Spectral) x 1, Damascus Steel Ingot x 3, STRING x 48, STICK x 36, STRING x 48, Gold Ingot (10-Carat) x 3, LEATHER x 24, Damascus Steel Ingot x 3]"
+  },
+  {
+    "item": "Armor Impair Gem",
+    "id": "FN_GEM_ARMOR_IMPAIR",
+    "lore": "[, A chance to deal extra durability, damage to all enemy armor at proc, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 5%, ? Tier III: 7%, ? Tier IV: 15%, ??????????????????????, , Drag and drop on a sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, BLAZE_POWDER x 1, empty slot, Unbind Rune x 1, EMERALD x 1, Unbind Rune x 1, empty slot, BLAZE_POWDER x 1, empty slot]"
+  },
+  {
+    "item": "Axe throwie Gem",
+    "id": "FN_GEM_AXETHROWIE",
+    "lore": "[, Gives you the ability to throw axes, that can hit entities and damage them, , Drag and drop on an axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Ancient Rune [Air] x 1, empty slot, Power Rune x 1, EMERALD x 1, Power Rune x 1, empty slot, Ancient Rune [Air] x 1, empty slot]"
+  },
+  {
+    "item": "Blind bind Gem",
+    "id": "FN_GEM_BLINDBIND",
+    "lore": "[, A chance to blind enemies for, 4 seconds when got hit by your arrow, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 13%, ??????????????????????, , Drag and drop on a bow, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Pestilence Rune x 1, empty slot, Linger Rune x 1, EMERALD x 1, Linger Rune x 1, empty slot, Pestilence Rune x 1, empty slot]"
+  },
+  {
+    "item": "Damnation Gem",
+    "id": "FN_GEM_DAMNATION",
+    "lore": "[, Shift Right click the weapon that has this gem, the weapon is ready to serve you in battle and, will attack entities in the direction of your, crosshair after 8 seconds, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magic Sugar x 1, Intellect Rune x 1, Magic Sugar x 1, Spirit Rune x 1, EMERALD x 1, Intellect Rune x 1, Magic Sugar x 1, Intellect Rune x 1, Magic Sugar x 1]"
+  },
+  {
+    "item": "Hasty Gem",
+    "id": "FN_GEM_HASTY",
+    "lore": "[, A chance to receive 4 seconds, of haste when mining ores, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 5%, ? Tier III: 8%, ? Tier IV: 16%, ??????????????????????, , Drag and drop on a tool, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Agility Rune x 1, DIAMOND_PICKAXE x 1, Agility Rune x 1, empty slot, EMERALD x 1, empty slot, Agility Rune x 1, DIAMOND_PICKAXE x 1, Agility Rune x 1]"
+  },
+  {
+    "item": "Impostor Gem",
+    "id": "FN_GEM_IMPOSTOR",
+    "lore": "[, A chance to teleport behind, the player that is hitting you, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 7%, ? Tier IV: 14%, ??????????????????????, , Drag and drop on a helmet, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Power Rune x 1, empty slot, Intellect Rune x 1, EMERALD x 1, Intellect Rune x 1, empty slot, Power Rune x 1, empty slot]"
+  },
+  {
+    "item": "Inferno Gem",
+    "id": "FN_GEM_INFERNO",
+    "lore": "[, A chance to set enemies in a, 7 block radius on fire, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 5%, ? Tier III: 8%, ? Tier IV: 16%, ??????????????????????, , Drag and drop on a sword, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Spiral Fire Rune x 1, Ancient Rune [Air] x 1, Spiral Fire Rune x 1, empty slot, EMERALD x 1, empty slot, Spiral Fire Rune x 1, empty slot, Spiral Fire Rune x 1]"
+  },
+  {
+    "item": "Psychokinesis Gem",
+    "id": "FN_GEM_PSYCHOKINESIS",
+    "lore": "[, A chance to move enemies towards, you when got hit by your arrow, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 5%, ? Tier III: 8%, ? Tier IV: 17%, ??????????????????????, , Drag and drop on a bow, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Intellect Rune x 1, Ancient Rune [Ender] x 1, Intellect Rune x 1, empty slot, EMERALD x 1, empty slot, Intellect Rune x 1, Ancient Rune [Ender] x 1, Intellect Rune x 1]"
+  },
+  {
+    "item": "Retaliate Gem",
+    "id": "FN_GEM_RETALIATE",
+    "lore": "[, Allows your weapons to return back to , you after throwing and hitting an object, or entity, weapon must have any of these, gems bound to it before binding this gem:, - Damnation Gem, - Tri-Sword Gem, - Axe Throwie Gem, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Ancient Rune [Air] x 1, empty slot, Intellect Rune x 1, EMERALD x 1, Intellect Rune x 1, empty slot, Ancient Rune [Air] x 1, empty slot]"
+  },
+  {
+    "item": "Telepathy Gem",
+    "id": "FN_GEM_TELEPATHY",
+    "lore": "[, Automatically places blocks broken by, the tool in the player's inventory, , Drag and drop on a tool, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Intellect Rune x 1, DIAMOND_PICKAXE x 1, Intellect Rune x 1, empty slot, EMERALD x 1, empty slot, Intellect Rune x 1, IRON_PICKAXE x 1, Intellect Rune x 1]"
+  },
+  {
+    "item": "Thorn Away Gem",
+    "id": "FN_GEM_THORN_AWAY",
+    "lore": "[, A chance to negate, all thorn damage, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 13%, ??????????????????????, , Drag and drop on a chestplate, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Intellect Rune x 1, empty slot, BLAZE_POWDER x 4, EMERALD x 1, BLAZE_POWDER x 4, empty slot, Power Rune x 1, empty slot]"
+  },
+  {
+    "item": "Thunderbolt Gem",
+    "id": "FN_GEM_THUNDER",
+    "lore": "[, A chance to strike, lightning to enemies, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 12%, ??????????????????????, , Drag and drop on a sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Sparkling Rune x 1, FIRE_CHARGE x 1, Sparkling Rune x 1, empty slot, EMERALD x 1, empty slot, Sparkling Rune x 1, FIRE_CHARGE x 1, Sparkling Rune x 1]"
+  },
+  {
+    "item": "Tri-Sword Gem",
+    "id": "FN_GEM_TRI_SWORD",
+    "lore": "[, Gives you the ability to throw your, sword with additional 2 swords around it that, can cut through entities and damage them, , Drag and drop on an sword, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Intellect Rune x 1, empty slot, Power Rune x 1, EMERALD x 1, Power Rune x 1, empty slot, Intellect Rune x 1, empty slot]"
+  },
+  {
+    "item": "Guardian Gem",
+    "id": "FN_GEM_GUARDIAN",
+    "lore": "[, A chance to spawn a guardian that will, fight for you until death, the armor that, has this gem must be worn in order for, the guardian to protect you from enemies, when you are being attacked., - Unequipped armor will remove any active guardians, - Guardians don't attack other guardians and,   can only attack the owner of that guardian, , ?????? Tiers ??????, ? Tier I: 2%, ? Tier II: 3%, ? Tier III: 5%, ? Tier IV: 11%, ??????????????????????, , Drag and drop on a chestplate, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Blank Rune x 1, empty slot, Spirit Rune x 1, EMERALD x 1, Spirit Rune x 1, Magic Sugar x 1, Blank Rune x 1, Magic Sugar x 1]"
+  },
+  {
+    "item": "Disrupted Gem",
+    "id": "FN_GEM_DISRUPTED",
+    "lore": "[, A chance to prevent your enemy, guardian from spawning, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 5%, ? Tier III: 8%, ? Tier IV: 17%, ??????????????????????, , Drag and drop on a sword, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Spirit Rune x 1, empty slot, Power Rune x 1, EMERALD x 1, Power Rune x 1, empty slot, Spirit Rune x 1, empty slot]"
+  },
+  {
+    "item": "Arrow Avert Gem",
+    "id": "FN_GEM_ARROW_AVERT",
+    "lore": "[, A chance to prevent arrow shot by a player, from hitting you, arrow is averted taking, no damage when you get hit, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 7%, ? Tier IV: 14%, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Cloud Rune x 1, BLAZE_POWDER x 1, Cloud Rune x 1, Blank Rune x 1, EMERALD x 1, Blank Rune x 1, Cloud Rune x 1, BLAZE_POWDER x 1, Cloud Rune x 1]"
+  },
+  {
+    "item": "Deberserk Gem",
+    "id": "FN_GEM_DEBERSERK",
+    "lore": "[, A chance to decrease damage, taken from axes by 30%, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 13%, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Agility Rune x 1, Ancient Rune [Earth] x 2, Agility Rune x 1, Steel Ingot x 1, EMERALD x 1, Steel Ingot x 1, Blank Rune x 1, empty slot, Blank Rune x 1]"
+  },
+  {
+    "item": "Parry Gem",
+    "id": "FN_GEM_PARRY",
+    "lore": "[, A chance to decrease damage, taken from swords by 25%, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 7%, ? Tier IV: 14%, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Blank Rune x 3, Ancient Rune [Earth] x 2, Blank Rune x 3, Duralumin Ingot x 1, EMERALD x 1, Duralumin Ingot x 1, Agility Rune x 1, Ancient Rune [Air] x 2, Agility Rune x 1]"
+  },
+  {
+    "item": "Stout Gem",
+    "id": "FN_GEM_STOUT",
+    "lore": "[, A chance to prevent armor from, taking any durability damage, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 5%, ? Tier III: 8%, ? Tier IV: 16%, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, empty slot, Heart Rune x 1, empty slot, EMERALD x 1, empty slot, Power Rune x 1, Magic Sugar x 1, Heart Rune x 1]"
+  },
+  {
+    "item": "Adamantine Gem",
+    "id": "FN_GEM_ADAMANTINE",
+    "lore": "[, A chance to prevent weapon or tools, from having durability damage, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 5%, ? Tier III: 7%, ? Tier IV: 15%, ??????????????????????, , Drag and drop on weapon or, tools to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, BLAZE_POWDER x 2, Power Rune x 1, empty slot, EMERALD x 1, empty slot, Agility Rune x 1, BLAZE_POWDER x 2, Agility Rune x 1]"
+  },
+  {
+    "item": "Awaken Gem",
+    "id": "FN_GEM_AWAKEN",
+    "lore": "[, A chance to instant resurrect the, player upon death at same location, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 5%, ? Tier III: 7%, ? Tier IV: 15%, ??????????????????????, , Drag and drop on a helmet, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Heart Rune x 1, BLAZE_POWDER x 1, Heart Rune x 1, empty slot, EMERALD x 1, empty slot, Heart Rune x 1, Magic Sugar x 1, Heart Rune x 1]"
+  },
+  {
+    "item": "Avenge Gem",
+    "id": "FN_GEM_AVENGE",
+    "lore": "[, A chance to spawn primed creeper, upon player death at same location, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 13%, ??????????????????????, , Drag and drop on a boots, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Pestilence Rune x 1, ROTTEN_FLESH x 1, Pestilence Rune x 1, ROTTEN_FLESH x 1, EMERALD x 1, ROTTEN_FLESH x 1, Linger Rune x 1, Magic Sugar x 1, Linger Rune x 1]"
+  },
+  {
+    "item": "Achilles Heel Gem",
+    "id": "FN_GEM_ACHILLES_HEEL",
+    "lore": "[, A chance to deal 2x damage when, the arrow hits the achilles heel, of an entity or player, , ?????? Tiers ??????, ? Tier I: 4%, ? Tier II: 6%, ? Tier III: 9%, ? Tier IV: 18%, ??????????????????????, , Drag and drop on a bow or crossbow, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Agility Rune x 1, FEATHER x 1, Agility Rune x 1, ARROW x 1, EMERALD x 1, ARROW x 1, Pestilence Rune x 1, empty slot, Intellect Rune x 1]"
+  },
+  {
+    "item": "Disarmor Gem",
+    "id": "FN_GEM_DISARMOR",
+    "lore": "[, A chance of unequipping a random, armor piece from your enemy, , ?????? Tiers ??????, ? Tier I: 2%, ? Tier II: 3%, ? Tier III: 5%, ? Tier IV: 10%, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Intellect Rune x 1, empty slot, Pestilence Rune x 1, BLAZE_POWDER x 1, EMERALD x 1, BLAZE_POWDER x 1, Power Rune x 1, empty slot, Intellect Rune x 1]"
+  },
+  {
+    "item": "Disarm Gem",
+    "id": "FN_GEM_DISARM",
+    "lore": "[, A chance of unequipping the weapon, that your enemy is holding, , ?????? Tiers ??????, ? Tier I: 2%, ? Tier II: 3%, ? Tier III: 5%, ? Tier IV: 10%, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, Magic Sugar x 1, Linger Rune x 1, BLAZE_POWDER x 2, EMERALD x 1, BLAZE_POWDER x 2, Pestilence Rune x 1, Magic Sugar x 1, Intellect Rune x 1]"
+  },
+  {
+    "item": "Smoke Criminal Gem",
+    "id": "FN_GEM_SMOKE_CRIMINAL",
+    "lore": "[, A chance to become invulnerable for, 5 seconds when health is below 30%, while being protected by the smoke, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 7%, ? Tier IV: 14%, ??????????????????????, , Drag and drop on a boots, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Spirit Rune x 1, empty slot, Cloud Rune x 1, ROTTEN_FLESH x 1, EMERALD x 1, BLAZE_POWDER x 1, Cloud Rune x 1, empty slot, Power Rune x 1]"
+  },
+  {
+    "item": "Lifesteal Gem",
+    "id": "FN_GEM_LIFESTEAL",
+    "lore": "[, A chance to steal 1 heart from, your enemy as long as your, health is below your max health, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 12%, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Heart Rune x 1, Magic Sugar x 1, Heart Rune x 1, BLAZE_POWDER x 1, EMERALD x 1, BLAZE_POWDER x 1, Linger Rune x 1, Magic Sugar x 1, Pestilence Rune x 1]"
+  },
+  {
+    "item": "Atrophy Gem",
+    "id": "FN_GEM_ATROPHY",
+    "lore": "[, A chance to deal wither effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 3%,   - Level 1 wither effect, ? Tier II: 4%,   - Level 2 wither effect, ? Tier III: 6%,   - Level 3 wither effect, ? Tier IV: 13%,   - Level 4 wither effect, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Linger Rune x 1, Pestilence Rune x 1, Linger Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Linger Rune x 1, Heart Rune x 1, Linger Rune x 1]"
+  },
+  {
+    "item": "Bane Gem",
+    "id": "FN_GEM_BANE",
+    "lore": "[, A chance to deal poison effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 3%,   - Level 1 poison effect, ? Tier II: 4%,   - Level 2 poison effect, ? Tier III: 7%,   - Level 3 poison effect, ? Tier IV: 14%,   - Level 4 poison effect, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Linger Rune x 1, Pestilence Rune x 1, Linger Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Pestilence Rune x 1, Pestilence Rune x 1, Pestilence Rune x 1]"
+  },
+  {
+    "item": "Sedate Gem",
+    "id": "FN_GEM_SEDATE",
+    "lore": "[, A chance to deal slow effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 3%,   - Level 1 slow effect, ? Tier II: 4%,   - Level 2 slow effect, ? Tier III: 7%,   - Level 3 slow effect, ? Tier IV: 14%,   - Level 4 slow effect, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Linger Rune x 1, empty slot, Linger Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Agility Rune x 1, Linger Rune x 1, Agility Rune x 1]"
+  },
+  {
+    "item": "Decrepit Gem",
+    "id": "FN_GEM_DECREPIT",
+    "lore": "[, A chance to deal weakness effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 2%,   - Level 1 weakness effect, ? Tier II: 3%,   - Level 2 weakness effect, ? Tier III: 5%,   - Level 3 weakness effect, ? Tier IV: 11%,   - Level 4 weakness effect, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Linger Rune x 1, empty slot, Linger Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Linger Rune x 1, empty slot, Linger Rune x 1]"
+  },
+  {
+    "item": "Deception Gem",
+    "id": "FN_GEM_DECEPTION",
+    "lore": "[, A chance to deal blindness effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 3%,   - Level 1 blindness effect, ? Tier II: 5%,   - Level 2 blindness effect, ? Tier III: 7%,   - Level 3 blindness effect, ? Tier IV: 15%,   - Level 4 blindness effect, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Spirit Rune x 1, empty slot, Spirit Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Pestilence Rune x 1, Linger Rune x 1, Pestilence Rune x 1]"
+  },
+  {
+    "item": "Celerity Gem",
+    "id": "FN_GEM_CELERITY",
+    "lore": "[, A chance to deal swiftness effect, at your enemies that lasts for, 4 seconds, , ?????? Tiers ??????, ? Tier I: 3%,   - Level 1 swiftness effect, ? Tier II: 4%,   - Level 2 swiftness effect, ? Tier III: 6%,   - Level 3 swiftness effect, ? Tier IV: 13%,   - Level 4 swiftness effect, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Agility Rune x 1, Power Rune x 1, Agility Rune x 1, POTION x 1, EMERALD x 1, POTION x 1, Agility Rune x 1, Power Rune x 1, Agility Rune x 1]"
+  },
+  {
+    "item": "Loot Gem",
+    "id": "FN_GEM_LOOT",
+    "lore": "[, A chance to steal money from your, enemy worth 4$ of currency. Make, your enemies lose money!, , ?????? Tiers ??????, ? Tier I: 3%, ? Tier II: 4%, ? Tier III: 6%, ? Tier IV: 13%, ??????????????????????, , Drag and drop on sword or axe, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Pestilence Rune x 1, Agility Rune x 1, Linger Rune x 1, empty slot, EMERALD x 1, empty slot, Linger Rune x 1, Cloud Rune x 1, Pestilence Rune x 1]"
+  },
+  {
+    "item": "Shockwave Gem",
+    "id": "FN_GEM_SHOCKWAVE",
+    "lore": "[, A chance to deal shockwave damage, to all enemies in a 8 block radius, and bounce them off the ground!, , ?????? Tiers ??????, ? Tier I: 3%,   - Damage: 3, ? Tier II: 5%,   - Damage: 6, ? Tier III: 7%,   - Damage: 9, ? Tier IV: 15%,   - Damage: 12, ??????????????????????, , Drag and drop on any armor type, to bind this gem]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, Power Rune x 1, Power Rune x 1, empty slot, EMERALD x 1, empty slot, Power Rune x 1, Power Rune x 1, Power Rune x 1]"
+  },
+  {
+    "item": "Flawless Unbind Gem",
+    "id": "FN_GEM_FLAWLESS_UNBIND",
+    "lore": "[, 100% chance to remove any of the, selected gem from an item, , Instruction, Right hand: Unbind Gem, Left hand: Weapon/Armor/Tools, Action: Right click]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - III x 5, Unbind Rune x 1, Ender Lump - III x 5, Unbind Rune x 1, DIAMOND x 1, Unbind Rune x 1, Magical Lump - III x 5, Unbind Rune x 1, Ender Lump - III x 5]"
+  },
+  {
+    "item": "Precious Unbind Gem",
+    "id": "FN_GEM_PRECIOUS_UNBIND",
+    "lore": "[, 70% chance to remove any of the, selected gem from an item, , Instruction, Right hand: Unbind Gem, Left hand: Weapon/Armor/Tools, Action: Right click]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - II x 4, Unbind Rune x 1, Ender Lump - II x 4, SUGAR x 4, DIAMOND x 1, SUGAR x 4, Magical Lump - III x 4, Unbind Rune x 1, Ender Lump - III x 4]"
+  },
+  {
+    "item": "Blemished Unbind Gem",
+    "id": "FN_GEM_BLEMISHED_UNBIND",
+    "lore": "[, 45% chance to remove any of the, selected gem from an item, , Instruction, Right hand: Unbind Gem, Left hand: Weapon/Armor/Tools, Action: Right click]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - I x 3, Unbind Rune x 1, Ender Lump - I x 3, empty slot, DIAMOND x 1, empty slot, Magical Lump - II x 3, Unbind Rune x 1, Ender Lump - II x 3]"
+  },
+  {
+    "item": "Damaged Unbind Gem",
+    "id": "FN_GEM_DAMAGED_UNBIND",
+    "lore": "[, 25% chance to remove any of the, selected gem from an item, , Instruction, Right hand: Unbind Gem, Left hand: Weapon/Armor/Tools, Action: Right click]",
+    "recipe_type": "FN Gem Altar",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - I x 2, empty slot, Ender Lump - I x 2, empty slot, DIAMOND x 1, empty slot, Magical Lump - I x 2, Unbind Rune x 1, Ender Lump - I x 2]"
+  },
+  {
+    "item": "Gem Tier Upgrades",
+    "id": "FN_GEM_UPGRADES_DISPLAY_ITEM",
+    "lore": "[, Click this item to know how to upgrade, gems and what recipe are needed in the, FN Gem Upgrader Multiblock]",
+    "recipe_type": "FN Gem Upgrader",
+    "category": "FN Gems",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Any Upgradeable Gem x 1, empty slot, Any Upgradeable Gem x 1, empty slot, Fine Jasper Gemstone x 1, empty slot, Any Upgradeable Gem x 1, empty slot, Any Upgradeable Gem x 1]"
+  },
+  {
+    "item": "Staff of Air Strider",
+    "id": "FN_STAFF_AIR_STRIDER",
+    "lore": "[, Right click to gain the ability to, walk on the air for 10 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Cloud Rune x 1, FEATHER x 1, Cloud Rune x 1, Magical Lump - III x 1, BLAZE_ROD x 1, Magical Lump - III x 1, Cloud Rune x 1, empty slot, Cloud Rune x 1]"
+  },
+  {
+    "item": "Staff of Awareness",
+    "id": "FN_STAFF_AWARENESS",
+    "lore": "[, Right click to receive information, regarding the nearest players around, 50 block radius, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, BLAZE_POWDER x 4, empty slot, Intellect Rune x 1, BLAZE_ROD x 1, Intellect Rune x 1, empty slot, Magic Sugar x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Confusion",
+    "id": "FN_STAFF_CONFUSION",
+    "lore": "[, Spawn an area of effect cloud where, entities are confused of their direction, if inside the radius for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - III x 1, Linger Rune x 1, Magical Lump - III x 1, Pestilence Rune x 1, BLAZE_ROD x 1, Pestilence Rune x 1, empty slot, Magic Sugar x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Deep-Freeze",
+    "id": "FN_STAFF_DEEPFREEZE",
+    "lore": "[, Spawn an area of effect cloud where, entities are being slowed by the freezing, cold if inside the radius for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Linger Rune x 1, empty slot, Ice Rune x 1, BLAZE_ROD x 1, Ice Rune x 1, empty slot, Magic Sugar x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Explosion",
+    "id": "FN_STAFF_EXPLOSION",
+    "lore": "[, Right click a target block to, yield an explosion causing damage, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, TNT x 1, Power Rune x 1, Magic Sugar x 1, BLAZE_ROD x 1, Magic Sugar x 1, empty slot, GUNPOWDER x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Fangs",
+    "id": "FN_STAFF_FANGS",
+    "lore": "[, Right click a target block to, spawn evoker fangs that causes, damage to entities, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Spirit Rune x 1, ROTTEN_FLESH x 1, Spirit Rune x 1, empty slot, BLAZE_ROD x 1, empty slot, Spirit Rune x 1, ROTTEN_FLESH x 1, Spirit Rune x 1]"
+  },
+  {
+    "item": "Staff of Force",
+    "id": "FN_STAFF_FORCE",
+    "lore": "[, Right click to spawn a cloud of effect, that gives a force push forward or, shift-right-click to spawn a different cloud, of effect that gives a backward force, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - III x 1, FEATHER x 12, Ender Lump - III x 1, Agility Rune x 1, BLAZE_ROD x 1, Agility Rune x 1, empty slot, Cloud Rune x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Gravitational Pull",
+    "id": "FN_STAFF_GRAVITY",
+    "lore": "[, Spawn an area of effect cloud where, entities are being pulled by the gravitational, force if inside the radius for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - I x 1, Spirit Rune x 1, Magical Lump - I x 1, empty slot, BLAZE_ROD x 1, empty slot, Intellect Rune x 1, Magic Sugar x 1, Intellect Rune x 1]"
+  },
+  {
+    "item": "Staff of Healing",
+    "id": "FN_STAFF_HEALING",
+    "lore": "[, Right click to spawn a cloud of effect, that heals the caster only if inside the, radius for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magic Sugar x 1, empty slot, Magic Sugar x 1, Bandage x 2, BLAZE_ROD x 1, Bandage x 2, Heart Rune x 1, empty slot, Heart Rune x 1]"
+  },
+  {
+    "item": "Staff of Hellfire",
+    "id": "FN_STAFF_HELLFIRE",
+    "lore": "[, Spawn an area of effect cloud, where entities are set on fire, if inside the radius for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Magical Lump - III x 2, empty slot, Magical Lump - III x 2, Spiral Fire Rune x 1, BLAZE_ROD x 1, Spiral Fire Rune x 1, empty slot, Magic Sugar x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Invisibility",
+    "id": "FN_STAFF_INVI",
+    "lore": "[, 6 seconds of invisibility, even your armor and name, are hidden, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, Intellect Rune x 1, empty slot, Power Rune x 1, BLAZE_ROD x 1, Power Rune x 1, empty slot, Intellect Rune x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Invulnerability",
+    "id": "FN_STAFF_INVULNERABILITY",
+    "lore": "[, Right click to spawn a cloud of effect, that protects entities inside the radius, from damage for 8 seconds, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Power Rune x 1, GOLDEN_APPLE x 1, Power Rune x 1, empty slot, BLAZE_ROD x 1, empty slot, Magical Lump - I x 2, empty slot, Magical Lump - I x 2]"
+  },
+  {
+    "item": "Staff of Locomotion",
+    "id": "FN_STAFF_LOCOMOTION",
+    "lore": "[, Move entities to a target location by right, clicking to select and left click to move, , Uses: 10 left, Entity stored: none]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Intellect Rune x 1, ENDER_PEARL x 1, Cloud Rune x 1, empty slot, BLAZE_ROD x 1, empty slot, Cloud Rune x 1, ENDER_PEARL x 1, Intellect Rune x 1]"
+  },
+  {
+    "item": "Staff of Minerals",
+    "id": "FN_STAFF_MINERALS",
+    "lore": "[, Right click to receive mythical, information that awaits upon using, the staff, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Ancient Rune [Earth] x 1, BLAZE_POWDER x 1, Ancient Rune [Earth] x 1, Magical Lump - III x 1, BLAZE_ROD x 1, Magical Lump - III x 1, Intellect Rune x 1, empty slot, Intellect Rune x 1]"
+  },
+  {
+    "item": "Staff of Muster",
+    "id": "FN_STAFF_MUSTER",
+    "lore": "[, Right click a target block to teleport, nearby entities that are on ground, within 50 block radius, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, ENDER_PEARL x 2, empty slot, Spirit Rune x 1, BLAZE_ROD x 1, Spirit Rune x 1, Ender Lump - III x 3, empty slot, Ender Lump - III x 3]"
+  },
+  {
+    "item": "Staff of Skulls",
+    "id": "FN_STAFF_SKULLS",
+    "lore": "[, Right click to launch, wither skull projectiles, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[empty slot, WITHER_SKELETON_SKULL x 5, empty slot, Spirit Rune x 1, BLAZE_ROD x 1, Spirit Rune x 1, empty slot, BLAZE_POWDER x 3, empty slot]"
+  },
+  {
+    "item": "Staff of Stallion",
+    "id": "FN_STAFF_STALLION",
+    "lore": "[, Spawns a skeleton horse that is, rideable until passenger dismount, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Spirit Rune x 1, SADDLE x 1, Spirit Rune x 1, empty slot, BLAZE_ROD x 1, empty slot, BONE x 4, empty slot, BONE x 4]"
+  },
+  {
+    "item": "Staff of Teleportation",
+    "id": "FN_STAFF_TP",
+    "lore": "[, Teleport to a target block by, right clicking it, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Ender Lump - III x 2, Intellect Rune x 1, Ender Lump - III x 2, empty slot, BLAZE_ROD x 1, empty slot, empty slot, Ancient Rune [Ender] x 1, empty slot]"
+  },
+  {
+    "item": "Staff of Cobweb",
+    "id": "FN_STAFF_COBWEB",
+    "lore": "[, Right click a target block, to spawn a wall of cobwebs, , Uses: 10 left]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Staffs",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Pestilence Rune x 1, empty slot, Pestilence Rune x 1, COBWEB x 2, BLAZE_ROD x 1, COBWEB x 2, empty slot, Magic Sugar x 5, empty slot]"
+  },
+  {
+    "item": "FN's Hoe",
+    "id": "FN_HOE_5X5",
+    "lore": "[, Can soil/till land and harvest, crops in a 5x5 square area]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Common Talisman x 1, Carbon x 4, Common Talisman x 1, Ancient Rune [Earth] x 3, DIAMOND_HOE x 1, Ancient Rune [Earth] x 3, Reinforced Alloy Ingot x 6, Carbon x 4, Reinforced Alloy Ingot x 6]"
+  },
+  {
+    "item": "FN's Reseeding Hoe",
+    "id": "FN_HOE_5X5_AUTO_PLANT",
+    "lore": "[, Can soil/till land and harvest, crops in a 5x5 square area, , Auto plants if the crops are, harvested at maximum age]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Common Talisman x 1, Carbon x 6, Common Talisman x 1, Ancient Rune [Earth] x 7, DIAMOND_HOE x 1, Ancient Rune [Earth] x 7, Reinforced Alloy Ingot x 14, Carbon x 6, Reinforced Alloy Ingot x 14]"
+  },
+  {
+    "item": "FN's Block Rotator",
+    "id": "FN_BLOCK_ROTATOR",
+    "lore": "[, Right click to rotate orientable or, directional blocks. (Terracotta, Chains, etc), , Shift right click to flip slab, bisected, or orientable blocks (Slabs, stairs, etc)]",
+    "recipe_type": "FN Assembly Station",
+    "category": "FN Miscellaneous",
+    "enchantable": true,
+    "disenchantable": true,
+    "recipe": "[Carbon x 1, Copper Ingot x 3, Carbon x 1, Electromagnet x 1, COMPASS x 1, Electromagnet x 1, Duralumin Ingot x 2, Copper Ingot x 3, Duralumin Ingot x 2]"
+  }
+]

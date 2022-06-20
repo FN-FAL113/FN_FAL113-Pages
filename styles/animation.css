@@ -1,0 +1,51 @@
+
+
+#wavepathlite1{
+    animation-name: downUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#wavepathlite2{
+    animation-name: downUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+#wavepathlite3{
+    animation-name: downUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+#wavepathlite4{
+    animation-name: downUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+#wavepathlite5{
+    animation-name: downUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 4s;
+}
+
+
+@keyframes downUp {
+    from{ transform: translateY(0); }
+    to{ transform: translateY(7px); }
+}
