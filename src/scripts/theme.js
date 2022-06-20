@@ -114,6 +114,7 @@ function toggleDarkMode(isClicked){
    toggleChartDarkMode()
 }
 
+
 function toggleLightMode(isClicked){
     if(localStorage.getItem('isDarkMode') == 'true'){ return; }
 

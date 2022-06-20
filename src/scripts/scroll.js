@@ -4,7 +4,7 @@ let navText = document.querySelectorAll('.navtext');
 
 navBarToggler();
 
-window.onscroll = function () {
+window.onscroll = () => {
 	onScrollDown();
 }
 
@@ -35,7 +35,11 @@ function toggleTransparentNav(){
 			
 		}
 	}
-	logo.src = "./images/large_thumbnail.png";
+
+	if(isDarkMode== 'false'){
+		logo.src = "./images/large_thumbnail.png";
+	}
+	
 }
 
 function toggleNonTransparentNav(){
@@ -43,15 +47,18 @@ function toggleNonTransparentNav(){
 		nav.classList.toggle('bgdark');
 		nav.classList.toggle('border-bottom');
 		for (let i = 0; i < navText.length; i++) {
-			if(!navText[i].classList.contains('text-info')){
+			if(navText[i].classList.contains('text-dark')){
 				navText[i].classList.remove('text-dark');
 				navText[i].classList.toggle('text-info');
-				navText[i].classList.toggle('transitioned');
 			}
-		}
-	}
-	logo.src = "./images/large_thumbnail_dark.png";
 
+			// when non transparent nav is toggled, add 'transitioned'
+			// class to prevent theme toggling from changing the navText
+			navText[i].classList.toggle('transitioned');
+		}
+		
+		logo.src = "./images/large_thumbnail_dark.png";
+	}
 }
 
 function onScrollDown(){
