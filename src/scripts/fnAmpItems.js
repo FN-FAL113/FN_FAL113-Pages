@@ -52,15 +52,15 @@ async function getData(){
 
 async function innerElement(li, item, element, recipeArr, context, i, lore){
     li.innerHTML = `
-        <button type="button" class="btn btn-sm btn-primary buttons" data-toggle="modal" data-target="#exampleModal${i}">
+        <button type="button" class="btn btn-sm btn-primary window-fill" data-toggle="modal" data-target="#exampleModal${i}">
         ${item}
         </button>
     
         <div class="modal" data-backdrop="false" id="exampleModal${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog window" role="document">
-            <div class="modal-content bgOpaqueDark" id="bgBlurHigh">
-                <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">${element.item}</h5>
+            <div class="modal-dialog modal-fill" role="document">
+            <div class="modal-content bgOpaqueDarkModal">
+                <div class="modal-header" style="border: none;">
+                <h5 class="modal-title mx-auto" id="exampleModalLabel">${element.item}</h5>
                 <button type="button" class="close btn btn-info" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">X</span>
                 </button>
@@ -72,12 +72,12 @@ async function innerElement(li, item, element, recipeArr, context, i, lore){
                 <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Category:</strong> <br>${element.category}</div>
                 <div class="modal-footer"></div>
-                <div class="modal-body"><strong class="text-center">Lore</strong> <br>${lore}</div>
+                <div class="modal-body"><strong class="text-center">Lore:</strong> <br>${lore}</div>
                 <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Enchantable:</strong> <br>${element.enchantable}<br><br><strong>Disenchantable:</strong> <br>${element.disenchantable}</div>
                 <div class="modal-footer"></div>
                 <div class="modal-body"><strong class="text-center">Recipe</strong><br>
-                    <table class="table table-bordered">
+                    <table class="table table-bordered border border-primary">
                         <tbody>
                             <tr>
                             <td>${recipeArr[0].replace(/\[/g, "")}</td>

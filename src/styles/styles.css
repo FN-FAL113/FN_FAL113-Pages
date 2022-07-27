@@ -14,8 +14,13 @@
 	.bgOpaqueLite{
 		background-color: rgba(72, 95, 132, 0.8);  
 	}
+
 	.bgOpaqueDark{
 		background-color: rgba(154, 152, 180, 0.75);  
+	}
+
+	.bgOpaqueDarkModal{
+		background-color: rgba(255, 255, 255, 1);  
 	}
 
 	.space {
@@ -67,6 +72,10 @@
 
 	.blob-dark-inverted2{
 		background-image: url('../images/blob-scene-dark-inverted-2.svg');
+	}
+
+	.modal-footer{ 
+		border-top: 1px solid #0275d8;
 	}
 
 	#btn-back-to-top {
@@ -203,7 +212,12 @@
 
 	.window-fill{
 		animation-name: fillWindow;
-		animation-duration: 2.0s;
+		animation-duration: 1.5s;
+	}
+
+	.modal-fill{
+		animation-name: fillWindow;
+		animation-duration: 0.5s;
 	}
 
 	.relicsImage{
