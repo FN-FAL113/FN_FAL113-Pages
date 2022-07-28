@@ -14,6 +14,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3.7.1/build/index.umd.min.js" defer></script>
+  <script type="module" src="/scripts/modules/chart-module.js" defer></script>
+  <script type="module" src="./scripts/charts.js" defer></script>
+  <script src="./scripts/scroll.js" defer></script>
+  <script type="text/javascript" src="./scripts/theme.js" defer></script>
 
   <title>My Plugin Stats</title>
 </head>
@@ -101,122 +107,110 @@
           </div>              
               
       </div>
-    </div> <!-- Waves 1 -->
+  </div> <!-- Waves 1 -->
 
     
-    <div class="space blob-lite-inverted2">
-    
-      <div class="container py-3 window">
-          <div class="row mx-auto">
+  <div class="space blob-lite-inverted2">
+  
+    <div class="container py-3 window">
+        <div class="row mx-auto">
+          
+          <div class="col-12 rounded mx-auto bgOpaqueDark" id="bgBlur">
+            <h1 class="text-center text-dark mt-1">SfChunkInfo</h1>
+          </div>
+  
+        </div>
+  
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-4 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartSfChunk" width="20" height="30"></canvas>
+          </div>
+          <div class="col-8 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartSfChunkPlayers" width="20" height="30"></canvas>
+          </div>
+        </div> 
+      
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartSfChunkServerVer" width="20" height="30"></canvas>
+          </div>
+          <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartSfChunkPluginVer" width="20" height="30"></canvas>
+          </div>
+        </div>
+      
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-12 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartSfChunkPluginCountry" width="20" height="30"></canvas>
+          </div>
+        </div>              
             
-            <div class="col-12 rounded mx-auto bgOpaqueDark" id="bgBlur">
-              <h1 class="text-center text-dark mt-1">SfChunkInfo</h1>
-            </div>
-    
-          </div>
-    
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-4 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartSfChunk" width="20" height="30"></canvas>
-            </div>
-            <div class="col-8 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartSfChunkPlayers" width="20" height="30"></canvas>
-            </div>
-          </div> 
-        
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartSfChunkServerVer" width="20" height="30"></canvas>
-            </div>
-            <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartSfChunkPluginVer" width="20" height="30"></canvas>
-            </div>
-          </div>
-        
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-12 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartSfChunkPluginCountry" width="20" height="30"></canvas>
-            </div>
-          </div>              
-              
-      </div>
-
     </div>
 
-    <div class="space blob-lite2">
-    
-      <div class="container py-3 window">
-          <div class="row mx-auto">
+  </div>
+
+  <div class="space blob-lite2">
+  
+    <div class="container py-3 window">
+        <div class="row mx-auto">
+          
+          <div class="col-12 rounded mx-auto bgOpaqueDark" id="bgBlur">
+            <h1 class="text-center text-dark mt-1">Relics of Cthonia</h1>
+          </div>
+  
+        </div>
+  
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-4 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartRelic" width="20" height="30"></canvas>
+          </div>
+          <div class="col-8 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartRelicPlayers" width="20" height="30"></canvas>
+          </div>
+        </div> 
+      
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartRelicServerVer" width="20" height="30"></canvas>
+          </div>
+          <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartRelicPluginVer" width="20" height="30"></canvas>
+          </div>
+        </div>
+      
+        <div class="row mt-2 mx-auto rounded">
+          <div class="col-12 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
+            <canvas id="myChartRelicPluginCountry" width="20" height="30"></canvas>
+          </div>
+        </div>              
             
-            <div class="col-12 rounded mx-auto bgOpaqueDark" id="bgBlur">
-              <h1 class="text-center text-dark mt-1">Relics of Cthonia</h1>
-            </div>
-    
-          </div>
-    
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-4 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartRelic" width="20" height="30"></canvas>
-            </div>
-            <div class="col-8 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartRelicPlayers" width="20" height="30"></canvas>
-            </div>
-          </div> 
-        
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartRelicServerVer" width="20" height="30"></canvas>
-            </div>
-            <div class="col-6 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartRelicPluginVer" width="20" height="30"></canvas>
-            </div>
-          </div>
-        
-          <div class="row mt-2 mx-auto rounded">
-            <div class="col-12 rounded mx-auto bgOpaqueDark chart" id="bgBlur">
-              <canvas id="myChartRelicPluginCountry" width="20" height="30"></canvas>
-            </div>
-          </div>              
-              
-      </div>
-
-      <div class="container-fluid bgOpaqueDark border-top border-primary">
-        <footer class="d-flex justify-content-between mx-auto">
-      
-          <div class="row mx-auto">  
-            <div class="col-12">
-              <a href="https://github.com/FN-FAL113" target="_blank">
-              <button class="btn btn-sm text-muted btn-block footertext"><span class="text-dark text-center">&copy; 2022 FN_FAL113 Dev</span></button>
-              </a>
-            </div> 
-          </div>
-      
-          <div class="row">
-            <div class="col-12">
-              <button class="btn btn-sm text-dark btn-block footertext bg-button" id="bg-button" title="Shift-click to use normal colors">Theme: <span class="text-dark" id="bgtheme">light</span></button>
-            </div>
-          </div>
-      
-        </footer>
-      </div>  
-
     </div>
 
-
-    <button type="button" class="btn btn-floating" id="btn-back-to-top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="24"><path fill-rule="evenodd" d="M4.75 22a.75.75 0 010-1.5h14.5a.75.75 0 010 1.5H4.75zm.22-13.53a.75.75 0 001.06 1.06L11 4.56v12.19a.75.75 0 001.5 0V4.56l4.97 4.97a.75.75 0 101.06-1.06l-6.25-6.25a.75.75 0 00-1.06 0L4.97 8.47z"></path></svg>
-    </button>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3.7.1/build/index.umd.min.js"></script>
-    <script type="module" src="/scripts/modules/chart-module.js"></script>
-    <script type="module" src="./scripts/charts.js"></script>
+    <div class="container-fluid bgOpaqueDark border-top border-primary">
+      <footer class="d-flex justify-content-between mx-auto">
     
-    <script src="./scripts/scroll.js"></script>
+        <div class="row mx-auto">  
+          <div class="col-12">
+            <a href="https://github.com/FN-FAL113" target="_blank">
+            <button class="btn btn-sm text-muted btn-block footertext"><span class="text-dark text-center">&copy; 2022 FN_FAL113 Dev</span></button>
+            </a>
+          </div> 
+        </div>
+    
+        <div class="row">
+          <div class="col-12">
+            <button class="btn btn-sm text-dark btn-block footertext bg-button" id="bg-button" title="Shift-click to use normal colors">Theme: <span class="text-dark" id="bgtheme">light</span></button>
+          </div>
+        </div>
+    
+      </footer>
+    </div>  
 
-    <script type="text/javascript" src="./scripts/theme.js"></script>
+  </div>
 
+  <button type="button" class="btn btn-floating" id="btn-back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="24"><path fill-rule="evenodd" d="M4.75 22a.75.75 0 010-1.5h14.5a.75.75 0 010 1.5H4.75zm.22-13.53a.75.75 0 001.06 1.06L11 4.56v12.19a.75.75 0 001.5 0V4.56l4.97 4.97a.75.75 0 101.06-1.06l-6.25-6.25a.75.75 0 00-1.06 0L4.97 8.47z"></path></svg>
+  </button>
 
 </body>
 </html>
