@@ -2,7 +2,7 @@
 
 This is my personal website from scratch :)
 
-It also fetch and displays some data I needed for my plugins and other stuffs
+I wrote some stuffs for this page that I needed for productivity, etc.
 
 https://fnfal113.tech/
 
