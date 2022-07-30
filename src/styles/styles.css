@@ -130,6 +130,10 @@
 			height: 300px;
 			padding-right: 50px;
 		}
+		div.responsive-div {
+			width: 350px;
+			padding: 20px;
+		}
 		
 	}
 	@media only screen and (max-width: 300px){
@@ -138,11 +142,19 @@
 			height: 200px;
 			padding: 20px;
 		}
+		div.responsive-div {
+			width: 200px;
+			padding: 20px;
+		}
 	}
 	@media only screen and (max-width: 200px){
 		div.chart {
 			width: 100px;
 			height: 100px;
+			padding: 20px;
+		}
+		div.responsive-div {
+			width: 100px;
 			padding: 20px;
 		}
 	}
