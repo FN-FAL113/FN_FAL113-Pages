@@ -6,3 +6,5 @@ I wrote some stuffs for this page that I needed for productivity, etc.
 
 https://fnfal113.tech/
 
+This public repo of mine is under copyright 
+
